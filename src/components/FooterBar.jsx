@@ -9,7 +9,7 @@ import Behance from './icons/Behance'
 function FooterBar() {
 
     return(
-        <footer className="text-white border-1 border-white px-2 py-2 flex items-center justify-around">
+        <footer className="text-white px-2 py-2 mt-2 flex items-center justify-around border-t-1 border-b-1 border-green-50/30">
             
             <div className="text-sm">
                 <h2 className="font-bold text-base mb-2">Victor B. Chan</h2>
