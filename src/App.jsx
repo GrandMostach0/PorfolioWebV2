@@ -5,7 +5,7 @@ import './App.css'
 
 /* SECCION DE IMPORTACIONES */
 import NavBar from './components/navBar'
-
+import FooterBar from './components/FooterBar'
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <main className='text-white'>
         <p>HELLO</p>
       </main>
-      
+      <FooterBar />
     </>
   );
 }
