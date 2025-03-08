@@ -19,3 +19,5 @@ function Behance(Props){
         </svg>
     );
 }
+
+export default Behance;

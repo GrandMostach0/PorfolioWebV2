@@ -20,3 +20,5 @@ function LinkedIn(props){
         </svg>
     );
 }
+
+export default LinkedIn;
