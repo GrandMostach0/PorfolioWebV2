@@ -15,7 +15,7 @@ function Inicio() {
                 <p className="text-base">Soy un apasionado del desarrollo web y la ciberseguridad. Listo para explorar y crecer en esta apasionante travesía.</p>
 
                 <div className="flex items-center">
-                    <a href="" className="bg-white text-black text-sm py-2 px-2 rounded-xl mr-2 flex items-center">Ver Proyectos <Row_Right_Down /> </a>
+                    <a href="" className="bg-white text-black text-sm py-2 px-2 rounded-xl mr-2">Ver Proyectos</a>
 
                     <a href="https://github.com/GrandMostach0" className=" py-2 px-2 border-1 border-gray-300/50 rounded-3xl mr-2"> <GitHub /> </a>
                     <a href="https://www.linkedin.com/in/victorchanvarguez/"className=" py-2 px-2 border-1 border-gray-300/50 rounded-3xl mr-2"><LinkedIn /></a>
