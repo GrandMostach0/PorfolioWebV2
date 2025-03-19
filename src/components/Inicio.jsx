@@ -9,7 +9,7 @@ import Row_Right_Down from "./icons/Row_Right_Down";
 
 function Inicio() {
     return(
-        <div className="border-1 flex  items-center justify-center">
+        <div className="border-1 flex items-center justify-center">
             <div className=" mr-7 w-2xl py-4 px-4">
                 <h1 className="font-bold text-5xl mb-2">Desarrollador Frontend & Ciberseguridad</h1>
                 <p className="text-base">Soy un apasionado del desarrollo web y la ciberseguridad. Listo para explorar y crecer en esta apasionante travesía.</p>

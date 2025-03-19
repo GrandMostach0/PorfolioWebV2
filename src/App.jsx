@@ -9,6 +9,7 @@ import FooterBar from './components/FooterBar'
 
 
 import Inicio from './components/Inicio'
+import Portafolio from './components/Portafolio'
 
 function App() {
   return(
@@ -19,6 +20,9 @@ function App() {
         <NavBar />
         <main className='text-white'>
           <Inicio />
+
+          <Portafolio />
+
         </main>
         <h1>hola</h1>
         <FooterBar />
