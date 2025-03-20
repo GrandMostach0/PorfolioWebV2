@@ -51,8 +51,6 @@ function Portafolio(){
                 <CardProyects />
                 <CardProyects />
                 <CardProyects />
-                <CardProyects />
-                <CardProyects />
             </div>
 
         </section>

@@ -5,6 +5,11 @@
 }
 
 @layer components{
+
+    .tags{
+        @apply mr-4 px-2.5 py-1.5 bg-gray-300/20 rounded-[10px] text-xs;
+    }
+
     .btn-redSocial{
         @apply py-2 px-2 border-1 border-gray-400/50 rounded-xl mr-3 hover:bg-gray-400/50 hover:scale-110 hover:font-bold hover:transition-all hover:ease-in-out hover:duration-300;
     }
