@@ -1,13 +1,14 @@
 import React from 'react';
 import { useState } from 'react';
 
+import CardProyects from './proyects/cardProyects';
 function Portafolio(){
     const [selection, setSelection] = useState("programacion");
 
     return(
         <section className="border-1">
 
-            <div className="text-center text-white">
+            <div className="text-center text-white py-5">
                 <h2 className="text-5xl font-bold">Mis Proyectos</h2>
                 <p className="text-gray-400 mt-2">
                     Explora mi trabajo en desarrollo de software y ciberseguridad
@@ -34,6 +35,11 @@ function Portafolio(){
                 </div>
             </div>
 
+            <div className="border-1 border-blue-500 grid grid-cols-3">
+                <CardProyects />
+                <CardProyects />
+                <CardProyects />
+            </div>
 
         </section>
     );
