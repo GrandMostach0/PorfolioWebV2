@@ -17,7 +17,7 @@ function Portafolio(){
     },[]);
 
     return(
-        <section className="w-[90%] m-auto">
+        <section className="m-auto">
 
             <div className="text-center text-white py-5">
                 <h2 className="text-5xl font-bold">Mis Proyectos</h2>
