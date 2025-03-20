@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 
 import CardProyects from './proyects/cardProyects';
+
+import DataProyects from '../json/DataProyects.json'
 function Portafolio(){
     const [selection, setSelection] = useState("programacion");
 
+    //apartado para mostrar los datos del json
+    const [data, setData] = useState([]);
+
+    useEffect(()=>{
+        fetch('../json/DataProyects.json')
+        .then((response) => response.json())
+        .then((json) => setData(json))
+    },[]);
+
     return(
-        <section className="border-1">
+        <section className="w-[90%] m-auto">
 
             <div className="text-center text-white py-5">
                 <h2 className="text-5xl font-bold">Mis Proyectos</h2>
@@ -35,7 +46,10 @@ function Portafolio(){
                 </div>
             </div>
 
-            <div className="border-1 border-blue-500 grid grid-cols-3">
+            <div className="grid grid-cols-3 gap-4">
+                <CardProyects />
+                <CardProyects />
+                <CardProyects />
                 <CardProyects />
                 <CardProyects />
                 <CardProyects />

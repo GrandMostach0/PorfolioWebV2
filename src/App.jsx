@@ -19,9 +19,7 @@ function App() {
         <NavBar />
         <main className='text-white'>
           <Inicio />
-
           <Portafolio />
-
         </main>
         <h1>hola</h1>
         <FooterBar />
