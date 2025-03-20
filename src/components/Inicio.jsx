@@ -9,17 +9,19 @@ import Row_Right_Down from "./icons/Row_Right_Down";
 
 function Inicio() {
     return(
-        <div className="border-1 flex items-center justify-center">
+        <div className="flex items-center justify-center h-[70vh]">
+
             <div className=" mr-7 w-2xl py-4 px-4">
-                <h1 className="font-bold text-5xl mb-2">Desarrollador Frontend & Ciberseguridad</h1>
+                <h1 className="font-bold text-5xl mb-5">Desarrollador Frontend & Ciberseguridad</h1>
                 <p className="text-base">Soy un apasionado del desarrollo web y la ciberseguridad. Listo para explorar y crecer en esta apasionante travesía.</p>
 
-                <div className="flex items-center">
-                    <a href="" className="bg-white text-black text-sm py-2 px-2 rounded-xl mr-2">Ver Proyectos</a>
+                <div className="mt-5 flex items-center">
 
-                    <a href="https://github.com/GrandMostach0" className=" py-2 px-2 border-1 border-gray-300/50 rounded-3xl mr-2"> <GitHub /> </a>
-                    <a href="https://www.linkedin.com/in/victorchanvarguez/"className=" py-2 px-2 border-1 border-gray-300/50 rounded-3xl mr-2"><LinkedIn /></a>
-                    <a href="https://www.behance.net/Victor_Chan" className=" py-2 px-2 border-1 border-gray-300/50 rounded-3xl"><Behance /></a>
+                    <a href="" className="bg-white text-black text-sm py-2 px-2 rounded-xl mr-6 hover:scale-105 hover:bg-gray-300">Ver Proyectos</a>
+
+                    <a href="https://github.com/GrandMostach0" className="btn-redSocial"> <GitHub /> </a>
+                    <a href="https://www.linkedin.com/in/victorchanvarguez/"className="btn-redSocial"> <LinkedIn /></a>
+                    <a href="https://www.behance.net/Victor_Chan" className="btn-redSocial"> <Behance /></a>
 
                 </div>
 
@@ -27,9 +29,10 @@ function Inicio() {
 
             </div>
 
-            <div className="max-w-[15%] max-h-[20%] rounded-full overflow-hidden">
-                <img src={FotoPersonal} alt="Foto personal" className="object-cover w-full h-full" />
+            <div className="max-w-[15%] max-h-[50%] rounded-full overflow-hidden shadow-[0px_0px_20px_10px_#4a5568]">
+                <img src={FotoPersonal} alt="Foto personal" className="object-cover w-full h-full"/>
             </div>
+
         </div>
     );
 }

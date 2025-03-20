@@ -3,3 +3,9 @@
 *{
     box-sizing: border-box;
 }
+
+@layer components{
+    .btn-redSocial{
+        @apply py-2 px-2 border-1 border-gray-400/50 rounded-xl mr-3 hover:bg-gray-400/50 hover:scale-110 hover:font-bold hover:transition-all hover:ease-in-out hover:duration-300;
+    }
+}
