@@ -3,7 +3,7 @@ import LogoPersonal from '../assets/LogoPersonal.svg';
 
 function NavBar() {
     return(
-        <header className="text-white flex items-center justify-around py-1">
+        <header className="text-white flex items-center justify-around py-1 sticky top-0 z-40 fade-scroll">
             <div className="">
                 <img src={LogoPersonal} alt="Logo Personal" />
             </div>
