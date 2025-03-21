@@ -9,6 +9,7 @@ import FooterBar from './components/FooterBar'
 
 
 import Inicio from './components/Inicio'
+import Experiencia from './components/Experiencia'
 import Portafolio from './components/Portafolio'
 import Tecnologias from './components/Tecnologias'
 
@@ -21,6 +22,7 @@ function App() {
         <NavBar />
         <main className='text-white w-[90%] m-auto'>
           <Inicio />
+          <Experiencia />
           <Portafolio />
           <Tecnologias />
         </main>
