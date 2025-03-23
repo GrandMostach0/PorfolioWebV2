@@ -1,10 +1,13 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
+import Herramientas from '../json/Herramientas.json';
 
 function Tecnologias(){
 
-    const opciones = ["fronted", "backend", "base de datos", "DevOps","ciberseguridad"]
+    const opciones = ["fronted", "backend", "base de datos", "DevOps"]
     const [selection, setSelection] = useState(opciones[0]);
+
+    const tecnologiaSeleccionada = Herramientas.find(item => item.tag === selection);
 
     return(
         <section className="my-20">
@@ -29,15 +32,14 @@ function Tecnologias(){
             </div>
 
             <div className=" w-[80%] m-auto border-1 border-white/50 mt-6 mb-7 py-5 px-6 rounded-2xl">
-                <h3 className="text-2xl font-bold">FrontEnd</h3>
-                <p className="text-gray-400">Tecnologías para crear interfaces de usuarios interactivas y responsivas</p>
+                <h3 className="text-2xl font-bold">{tecnologiaSeleccionada.nombreTecnologia}</h3>
+                <p className="text-gray-400">{tecnologiaSeleccionada.descripcionTecnologia}</p>
 
-                <div className="my-3 px-5 flex items-center">
-                    <p className="tags">HTML5</p>
-                    <p className="tags">CSS3</p>
-                    <p className="tags">JavaScript</p>
-                    <p className="tags">React</p>
-                    <p className="tags">Tailwind CSS</p>
+                <div className="my-3 px-5 flex flex-wrap gap-2 ">
+
+                    {tecnologiaSeleccionada.herramientasTecnologias.map((herramienta, index) => (
+                        <p key={index} className="tags">{herramienta}</p>
+                    ))}
                 </div>
 
             </div>
