@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombreTecnologia": "Fronted",
+        "descripcionTecnologia": "Tecnología para crear interfaces interactivas y responsivas.",
+        "herramientasTecnologias": ["HTML", "CSS3", "JavaScript", "React", "TailwindCSS"]
+    },
+    {
+        "id": 2,
+        "nombreTecnologia": "Backend",
+        "descripcionTecnologia": "Tecnología para desarrollar la lógica del servidor y APIs.",
+        "herramientasTecnologias": ["Python", "Django", "Java", "PHP"]
+    },
+    {
+        "id": 3,
+        "nombreTecnologia": "Base de Datos",
+        "descripcionTecnologia": "Sistemas de gestión de bases de datos y almacenamiento.",
+        "herramientasTecnologias": ["MySQL", "PostgreSQL", "Firebase"]
+    },
+    {
+        "id": 4,
+        "nombreTecnologia": "DevOps",
+        "descripcionTecnologia": "Herramientas para automatización, despliegue y gestión de infraestructura.",
+        "herramientasTecnologias": ["Git", "Docker", "AWS", "Linux"]
+    }
+]

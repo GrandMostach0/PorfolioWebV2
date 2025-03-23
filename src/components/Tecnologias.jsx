@@ -10,7 +10,7 @@ function Tecnologias(){
         <section className="my-20">
             <div className="text-center">
                 <h2 className="text-5xl font-bold mb-2">Tecnologías</h2>
-                <p className="text-gray-400 text-xl">Herramientas y tecnologías que utilizo en mi trabajo diario</p>
+                <p className="text-gray-400 text-xl">Herramientas y tecnologías que utilizo en mi trabajo</p>
 
                 <div className="my-5 inline-flex bg-white/20 rounded-lg p-1">
                     {opciones.map((opcion) => (
