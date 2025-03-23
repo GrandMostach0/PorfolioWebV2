@@ -3,15 +3,15 @@ import React from "react";
 import portada from "../../assets/portada.jpg"
 import GitHub from "../icons/GitHub";
 
-function CardProyects(props){
+function CardProyects(Props){
     return(
         <div className="border-1 border-gray-500/50 my-2 mx-2 pb-6 rounded-xl overflow-hidden hover:border-white/60 hover:transition-all hover:ease-in hover:-translate-y-2">
 
             <img src={portada} alt="Portada Card" className=""/>
 
             <div className="pt-2 px-6">
-                <h2 className="text-2xl font-bold py-2">Titulo</h2>
-                <p>Plataforma de comercio electrónico con carrito de compras, pagos y gestión de inventario.</p>
+                <h2 className="text-2xl font-bold py-2">{Props.titulo}</h2>
+                <p>{Props.descripcion}</p>
 
                 <div className="flex items-center mt-3">
                     <p className="tags">React</p>

@@ -9,7 +9,7 @@ function Experiencia(){
             id: 1,
             puesto: "Documentador",
             empresa: "Efisys Core Banking",
-            tiempo: "Actual..",
+            tiempo: "Actualmente....",
             descripcion: "Encargado de la documentación técnica, elaboración de manuales de usuarios final y registrando procesos internos. Además, apoyé en tareas de QA, realizando pruebas funcionales y de regresión para asegurar la calidad del software, documentando hallazgos y colaborando en la mejora continua del sistema."
         },
         {
