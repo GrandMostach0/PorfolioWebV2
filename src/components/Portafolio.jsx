@@ -10,7 +10,7 @@ function Portafolio(){
     const [seleccion, setSeleccion] = useState(menuPortafolio[0]);
 
     return(
-        <section className="m-auto">
+        <section id='experiencias' className="m-auto">
 
             <div className="text-center text-white py-5">
                 <h2 className="text-5xl font-bold">Mis Proyectos</h2>

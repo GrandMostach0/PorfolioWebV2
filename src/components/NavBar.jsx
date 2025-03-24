@@ -6,16 +6,18 @@ function NavBar() {
     return(
         <header className="text-white flex items-center justify-around sticky top-0 z-40 fade-scroll py-2 px-6">
             <div className="">
-                <img src={LogoPersonal} alt="Logo Personal" />
+                <a href="#">
+                    <img src={LogoPersonal} alt="Logo Personal" />
+                </a>
             </div>
 
-            <nav className="border-1">
-                <a href="#" className="block lg:inline">Inicio</a>
-                <a href="#" className="block lg:inline">Experiencia</a>
-                <a href="#" className="block lg:inline">Proyectos</a>
-                <a href="#" className="block lg:inline">Tecnologías</a>
-                <a href="#" className="block lg:inline">Contacto</a>
-                <a href="#" className="block lg:inline">C/O</a>
+            <nav className="flex flex-wrap gap-4">
+                <a href="#inicio" className="block lg:inline hover:scale-105">Inicio</a>
+                <a href="#experiencias" className="block lg:inline hover:scale-105">Experiencia</a>
+                <a href="#proyectos" className="block lg:inline hover:scale-105">Proyectos</a>
+                <a href="#tecnologias" className="block lg:inline hover:scale-105">Tecnologías</a>
+                <a href="#" className="block lg:inline hover:scale-105">Contacto</a>
+                <a href="#" className="block lg:inline hover:scale-105">C/O</a>
             </nav>
 
         </header>
