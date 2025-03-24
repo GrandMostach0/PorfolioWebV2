@@ -1,32 +1,32 @@
-[
-    {
-        "id": 1,
-        "categoria": "Desarrollo",
-        "imagenUrl": "",
-        "titulo": "Place & Delirio",
-        "descripcion": "Plataforma de comercio electrónico con carrito de compras, pagos y gestión de inventario, Plataforma de comercio electrónico con carrito de compras, pagos y gestión de inventario.",
-        "urlGitHub": "",
-        "urlPreview": "",
-        "tags": ["HTML", "CSS", "PHP", "MySQL"]
-    },
-    {
-        "id": 2,
-        "categoria": "Desarrollo",
-        "imagenUrl": "",
-        "titulo": "Task Management App",
-        "descripcion": "Aplicación para gestionar tareas con funcionalidades de arrastrar y soltar, etiquetas y colaboración.",
-        "urlGitHub": "",
-        "urlPreview": "",
-        "tags": ["Vue.js", "Firebase", "Tailwind CSS"]
-    },
-    {
-        "id": 3,
-        "categoria": "Desarrollo",
-        "imagenUrl": "",
-        "titulo": "Portafolio Website",
-        "descripcion": "Sitio web de portafolio personal con animaciones suaves y diseño responsivo.",
-        "urlGitHub": "",
-        "urlPreview": "",
-        "tags": ["Next.js", "Tailwind CSS", "Framer Motion"]
-    }
-]
+{
+    "Desarrollo": [
+        {
+            "id": 1,
+            "imagenUrl": "",
+            "titulo": "Place & Delirio",
+            "descripcion": "Plataforma de comercio electrónico con carrito de compras, pagos y gestión de inventario.",
+            "urlGitHub": "",
+            "urlPreview": "",
+            "tags": ["HTML", "CSS", "PHP", "MySQL"]
+        },
+        {
+            "id": 2,
+            "imagenUrl": "",
+            "titulo": "Task Management App",
+            "descripcion": "Aplicación para gestionar tareas con funcionalidades de arrastrar y soltar, etiquetas y colaboración.",
+            "urlGitHub": "",
+            "urlPreview": "",
+            "tags": ["Vue.js", "Firebase", "Tailwind CSS"]
+        },
+        {
+            "id": 3,
+            "imagenUrl": "",
+            "titulo": "Portafolio Website",
+            "descripcion": "Sitio web de portafolio personal con animaciones suaves y diseño responsivo.",
+            "urlGitHub": "",
+            "urlPreview": "",
+            "tags": ["Next.js", "Tailwind CSS", "Framer Motion"]
+        }
+    ],
+    "DevOps": []
+}

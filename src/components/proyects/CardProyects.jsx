@@ -14,10 +14,10 @@ function CardProyects(Props){
                 <p>{Props.descripcion}</p>
 
                 <div className="flex items-center mt-3">
-                    <p className="tags">React</p>
-                    <p className="tags">Node.js</p>
-                    <p className="tags">MySQL</p>
-                    <p className="tags">TailwindCSS</p>
+
+                    {Props.tags.map((item, index) => (
+                        <p key={index} className="tags">{item}</p>
+                    ))}
                 </div>
 
                 <div className="mt-6 flex items-center justify-between">

@@ -5,14 +5,9 @@ import CardProyects from './proyects/cardProyects';
 
 import DataProyects from '../json/DataProyects.json'
 function Portafolio(){
-    const menuPortafolio = ["Desarrollo", "Ciberseguridad"]
+    const menuPortafolio = Object.keys(DataProyects);
 
     const [seleccion, setSeleccion] = useState(menuPortafolio[0]);
-
-    const trabajoSeleccionado = DataProyects.find(item => item.categoria === seleccion);
-
-    //apartado para mostrar los datos del json
-    const [data, setData] = useState()
 
     return(
         <section className="m-auto">
@@ -39,7 +34,13 @@ function Portafolio(){
             </div>
 
             <div className="grid grid-cols-3 gap-4">
-            <CardProyects titulo={trabajoSeleccionado.titulo} descripcion={trabajoSeleccionado.descripcion}/>
+                {DataProyects[seleccion]?.length > 0 ? (
+                    DataProyects[seleccion].map((proyecto) => (
+                        <CardProyects key={proyecto.id} {...proyecto} />
+                    ))
+                ) : (
+                    <p className="text-white text-center col-span-3">No hay proyectos en esta categoría.</p>
+                )}
             </div>
 
         </section>
