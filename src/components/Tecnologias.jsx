@@ -1,4 +1,5 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 import { useState } from 'react';
 import Herramientas from '../json/Herramientas.json';
 
@@ -10,7 +11,7 @@ function Tecnologias(){
     const tecnologiaSeleccionada = Herramientas.find(item => item.tag === selection);
 
     return(
-        <section className="my-20">
+        <Element name="tecnologias" className="my-20">
             <div className="text-center">
                 <h2 className="text-5xl font-bold mb-2">Tecnologías</h2>
                 <p className="text-gray-400 text-xl">Herramientas y tecnologías que utilizo en mi trabajo</p>
@@ -43,7 +44,7 @@ function Tecnologias(){
                 </div>
 
             </div>
-        </section>
+        </Element>
     );
 }
 

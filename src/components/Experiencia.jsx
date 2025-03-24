@@ -1,4 +1,5 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 import Work from "./icons/Work";
 
@@ -22,7 +23,7 @@ function Experiencia(){
     ]
 
     return(
-        <section className="py-5">
+        <Element name="experiencia" className="py-5">
             <div className="text-center mb-5">
                 <h2 className="text-5xl font-bold">Experiencia</h2>
             </div>
@@ -36,7 +37,7 @@ function Experiencia(){
                 </div>
             ))}
 
-        </section>
+        </Element>
     );
 }
 

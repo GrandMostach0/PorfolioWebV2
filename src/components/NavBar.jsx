@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import LogoPersonal from '../assets/LogoPersonal.svg';
 
+/* Librería de scroll */
+import { Link } from "react-scroll";
+
 function NavBar() {
 
     return(
@@ -12,10 +15,10 @@ function NavBar() {
             </div>
 
             <nav className="flex flex-wrap gap-4">
-                <a href="#inicio" className="block lg:inline hover:scale-105">Inicio</a>
-                <a href="#experiencias" className="block lg:inline hover:scale-105">Experiencia</a>
-                <a href="#proyectos" className="block lg:inline hover:scale-105">Proyectos</a>
-                <a href="#tecnologias" className="block lg:inline hover:scale-105">Tecnologías</a>
+                <Link to="inicio" smooth={true} duration={500} className="block lg:inline hover:scale-105"> Inicio </Link>
+                <Link to="experiencia" smooth={true} duration={500} offset={-60} className="block lg:inline hover:scale-105"> Experiencia </Link>
+                <Link to="proyectos" smooth={true} duration={500} offset={-60} className="block lg:inline hover:scale-105"> Proyectos</Link>
+                <Link to="tecnologias" smooth={true} duration={500} offset={-60} className="block lg:inline hover:scale-105"> Tecnologías </Link>
                 <a href="#" className="block lg:inline hover:scale-105">Contacto</a>
                 <a href="#" className="block lg:inline hover:scale-105">C/O</a>
             </nav>
