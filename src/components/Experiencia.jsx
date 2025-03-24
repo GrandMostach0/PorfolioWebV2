@@ -19,7 +19,7 @@ function Experiencia(){
             empresa: "Cluge Labs",
             tiempo: "Septiembre 2024 - Enero 2025",
             descripcion: "Desarrollé una plataforma web para la creación de un catálogo cultural, permitiendo a actores y escuelas de Arte y Cultura publicar sus obras, implemente funcionalidades para la gestión de perfiles, eventos y la integración con AWS para el alojamiento. Además, diseñe la arquitectura del proyecto, asegurando su escalabilidad y facilidad de uso."
-        }
+        },
     ]
 
     return(

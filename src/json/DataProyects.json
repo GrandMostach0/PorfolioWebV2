@@ -12,7 +12,7 @@
         {
             "id": 2,
             "imagenUrl": "",
-            "titulo": "Task Management App",
+            "titulo": "Cátalogo Cultural",
             "descripcion": "Aplicación para gestionar tareas con funcionalidades de arrastrar y soltar, etiquetas y colaboración.",
             "urlGitHub": "",
             "urlPreview": "",
@@ -21,7 +21,34 @@
         {
             "id": 3,
             "imagenUrl": "",
-            "titulo": "Portafolio Website",
+            "titulo": "MockUp",
+            "descripcion": "Sitio web de portafolio personal con animaciones suaves y diseño responsivo.",
+            "urlGitHub": "",
+            "urlPreview": "",
+            "tags": ["Next.js", "Tailwind CSS", "Framer Motion"]
+        },
+        {
+            "id": 4,
+            "imagenUrl": "",
+            "titulo": "Place & Delirio",
+            "descripcion": "Plataforma de comercio electrónico con carrito de compras, pagos y gestión de inventario.",
+            "urlGitHub": "",
+            "urlPreview": "",
+            "tags": ["HTML", "CSS", "PHP", "MySQL"]
+        },
+        {
+            "id": 5,
+            "imagenUrl": "",
+            "titulo": "Cátalogo Cultural",
+            "descripcion": "Aplicación para gestionar tareas con funcionalidades de arrastrar y soltar, etiquetas y colaboración.",
+            "urlGitHub": "",
+            "urlPreview": "",
+            "tags": ["Vue.js", "Firebase", "Tailwind CSS"]
+        },
+        {
+            "id": 6,
+            "imagenUrl": "",
+            "titulo": "MockUp",
             "descripcion": "Sitio web de portafolio personal con animaciones suaves y diseño responsivo.",
             "urlGitHub": "",
             "urlPreview": "",
