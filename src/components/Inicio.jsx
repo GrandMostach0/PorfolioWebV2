@@ -22,9 +22,9 @@ function Inicio() {
 
                     <a href="" className="bg-white text-black text-sm py-2 px-2 rounded-xl mr-6 hover:scale-105 hover:bg-gray-300">Ver Proyectos</a>
 
-                    <a href="https://github.com/GrandMostach0" className="btn-redSocial"> <GitHub /> </a>
-                    <a href="https://www.linkedin.com/in/victorchanvarguez/"className="btn-redSocial"> <LinkedIn /></a>
-                    <a href="https://www.behance.net/Victor_Chan" className="btn-redSocial"> <Behance /></a>
+                    <a href="https://github.com/GrandMostach0" target="_blank" className="btn-redSocial"> <GitHub /> </a>
+                    <a href="https://www.linkedin.com/in/victorchanvarguez/" target="_blank" className="btn-redSocial"> <LinkedIn /></a>
+                    <a href="https://www.behance.net/Victor_Chan" target="_blank" className="btn-redSocial"> <Behance /></a>
 
                 </div>
 

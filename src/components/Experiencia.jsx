@@ -23,7 +23,7 @@ function Experiencia(){
     ]
 
     return(
-        <Element name="experiencia" className="overflow-auto py-5">
+        <Element id="experiencia" className="overflow-auto py-5">
             <div className="text-center mb-5">
                 <h2 className="titulos">Experiencia</h2>
             </div>

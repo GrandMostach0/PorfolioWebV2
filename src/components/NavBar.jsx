@@ -87,7 +87,7 @@ function NavBar() {
             </Link>
           ))}
           <a 
-            href="#" 
+            href="mailto:kreedlegend@gmail.com"
             className="px-4 py-2 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors"
           >
             Contacto
@@ -119,7 +119,7 @@ function NavBar() {
             ))}
 
             <a
-              href="#"
+              href="mailto:kreedlegend@gmail.com"
               className="mt-4 px-6 py-3 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors"
               onClick={() => setIsOpen(false)}
             >

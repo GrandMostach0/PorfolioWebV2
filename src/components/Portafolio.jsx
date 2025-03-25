@@ -12,7 +12,7 @@ function Portafolio(){
     const [seleccion, setSeleccion] = useState(menuPortafolio[0]);
 
     return(
-        <Element name="proyectos" className="m-auto">
+        <Element id="proyectos" className="m-auto">
 
             <div className="text-center text-white py-5">
 

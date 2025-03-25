@@ -12,7 +12,7 @@ function Tecnologias(){
     const tecnologiaSeleccionada = Herramientas.find(item => item.tag === selection);
 
     return(
-        <Element name="tecnologias" className="my-20">
+        <Element id="tecnologias" className="my-20">
             <div className="text-center">
                 <motion.div
                 initial={{opacity: 0, y:50}}
@@ -23,7 +23,7 @@ function Tecnologias(){
                     <p className="descripcionTitulo">Herramientas y tecnologías que utilizo en mi trabajo</p>
                 </motion.div>
 
-                <div className="my-5 inline-flex bg-white/20 rounded-lg p-1 overflow-auto">
+                <div className="my-5 inline-flex bg-white/20 rounded-lg p-1">
                     {opciones.map((opcion) => (
                     <button
                         key={opcion}
