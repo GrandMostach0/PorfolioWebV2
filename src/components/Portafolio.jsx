@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Element } from 'react-scroll';
 import { motion } from 'framer-motion';
 
-import CardProyects from './proyects/cardProyects';
+import CardProyects from './proyects/CardProyect';
 
 import DataProyects from '../json/DataProyects.json'
 function Portafolio(){
