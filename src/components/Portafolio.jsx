@@ -15,10 +15,16 @@ function Portafolio(){
         <Element name="proyectos" className="m-auto">
 
             <div className="text-center text-white py-5">
-                <h2 className="text-5xl font-bold">Mis Proyectos</h2>
-                <p className="text-gray-400 mt-2">
-                    Explora mi trabajo en desarrollo de software y ciberseguridad
-                </p>
+
+                <motion.div
+                initial={{opacity: 0, y:50}}
+                whileInView={{y: 0,opacity: 1}}
+                transition={{duration: 0.5, delay: 0.6}}>
+                    <h2 className="text-5xl font-bold">Mis Proyectos</h2>
+                    <p className="text-gray-400 mt-2">
+                        Explora mi trabajo en desarrollo de software y ciberseguridad
+                    </p>
+                </motion.div>
 
                 <div className="mt-6 inline-flex bg-white/20 rounded-lg p-1">
                     {menuPortafolio.map((opcion) => (
