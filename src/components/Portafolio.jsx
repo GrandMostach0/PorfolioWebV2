@@ -19,9 +19,10 @@ function Portafolio(){
                 <motion.div
                 initial={{opacity: 0, y:50}}
                 whileInView={{y: 0,opacity: 1}}
+                viewport={{once: true}}
                 transition={{duration: 0.5, delay: 0.6}}>
-                    <h2 className="text-5xl font-bold">Mis Proyectos</h2>
-                    <p className="text-gray-400 mt-2">
+                    <h2 className="titulos">Mis Proyectos</h2>
+                    <p className="descripcionTitulo">
                         Explora mi trabajo en desarrollo de software y ciberseguridad
                     </p>
                 </motion.div>

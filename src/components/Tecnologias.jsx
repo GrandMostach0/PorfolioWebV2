@@ -17,9 +17,10 @@ function Tecnologias(){
                 <motion.div
                 initial={{opacity: 0, y:50}}
                 whileInView={{y: 0,opacity: 1}}
+                viewport={{once: true}}
                 transition={{duration: 0.5, delay: 0.6}}>
-                    <h2 className="text-5xl font-bold mb-2">Tecnologías</h2>
-                    <p className="text-gray-400 text-xl">Herramientas y tecnologías que utilizo en mi trabajo</p>
+                    <h2 className="titulos">Tecnologías</h2>
+                    <p className="descripcionTitulo">Herramientas y tecnologías que utilizo en mi trabajo</p>
                 </motion.div>
 
                 <div className="my-5 inline-flex bg-white/20 rounded-lg p-1">

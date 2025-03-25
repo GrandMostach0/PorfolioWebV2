@@ -6,8 +6,16 @@
 
 @layer components{
 
+    .titulos{
+        @apply text-5xl font-bold mb-2;
+    }
+
+    .descripcionTitulo{
+        @apply text-gray-400 mt-2;
+    }
+
     .tags{
-        @apply mr-4 px-2.5 py-1.5 bg-gray-300/20 rounded-[10px] text-xs;
+        @apply mr-4 px-2.5 py-1.5 bg-gray-300/20 rounded-[10px] text-xs hover:scale-105 cursor-pointer;
     }
 
     .btn-redSocial{

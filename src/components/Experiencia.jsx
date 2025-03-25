@@ -25,7 +25,7 @@ function Experiencia(){
     return(
         <Element name="experiencia" className="py-5">
             <div className="text-center mb-5">
-                <h2 className="text-5xl font-bold">Experiencia</h2>
+                <h2 className="titulos">Experiencia</h2>
             </div>
 
             {Experiencia.map((xp) => (
