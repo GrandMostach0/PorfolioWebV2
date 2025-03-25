@@ -15,7 +15,7 @@ function Inicio() {
         className="flex items-center justify-center h-[70vh]">
 
             <div className=" mr-7 w-2xl py-4 px-4">
-                <h1 className="font-bold text-5xl mb-5">Desarrollador Frontend & Ciberseguridad</h1>
+                <h1 className="font-bold text-5xl mb-5 ">Desarrollador Frontend & Ciberseguridad</h1>
                 <p className="text-base">Soy un apasionado del desarrollo web y la ciberseguridad. Listo para explorar y crecer en esta apasionante travesía.</p>
 
                 <div className="mt-5 flex items-center">
