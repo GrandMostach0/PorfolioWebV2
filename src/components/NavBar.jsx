@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LogoPersonal from '../assets/LogoPersonal.svg';
+import LogoPersonal from "./icons/LogoPersonal";
 
 /* Librería de scroll */
 import { Link } from "react-scroll";
@@ -10,7 +10,7 @@ function NavBar() {
         <header className="text-white flex items-center justify-around sticky top-0 z-40 fade-scroll py-2 px-6">
             <div className="">
                 <a href="#">
-                    <img src={LogoPersonal} alt="Logo Personal" />
+                    <LogoPersonal />
                 </a>
             </div>
 
