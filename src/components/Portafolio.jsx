@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { Element } from 'react-scroll';
+import { motion } from 'framer-motion';
 
 import CardProyects from './proyects/cardProyects';
 
@@ -36,8 +37,16 @@ function Portafolio(){
 
             <div className="grid grid-cols-3 gap-4">
                 {DataProyects[seleccion]?.length > 0 ? (
-                    DataProyects[seleccion].map((proyecto) => (
-                        <CardProyects key={proyecto.id} {...proyecto} />
+                    DataProyects[seleccion].map((proyecto, index) => (
+                        <motion.div
+                        key={proyecto.id}
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.2 }}
+                        transition={{ duration: 0.6, delay: index * 0.2 }}
+                        >
+                         <CardProyects {...proyecto} />
+                        </motion.div>
                     ))
                 ) : (
                     <p className="text-white text-center col-span-3">No hay proyectos en esta categoría.</p>

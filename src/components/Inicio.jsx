@@ -1,5 +1,4 @@
 import React from "react";
-import { Element } from "react-scroll";
 import { motion } from "framer-motion";
 
 import FotoPersonal from '../assets/FotoPersonal.jpg'
@@ -11,7 +10,7 @@ import Row_Right_Down from "./icons/Row_Right_Down";
 
 function Inicio() {
     return(
-        <motion.idv initial={{ y: -50, opacity: 0}} animate={{ y:50, opacity: 1}} transition={{duration: 1}}
+        <motion.idv initial={{ y: -50, opacity: 0}} animate={{ y:50, opacity: 1}} transition={{duration: 1, delay: 0.2}}
         id="inicio"
         className="flex items-center justify-center h-[70vh]">
 
