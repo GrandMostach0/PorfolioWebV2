@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
+import { motion } from "framer-motion";
 
 import FotoPersonal from '../assets/FotoPersonal.jpg'
 
@@ -10,7 +11,9 @@ import Row_Right_Down from "./icons/Row_Right_Down";
 
 function Inicio() {
     return(
-        <Element name="inicio" className="flex items-center justify-center h-[70vh]">
+        <motion.idv initial={{ y: -50, opacity: 0}} animate={{ y:50, opacity: 1}} transition={{duration: 1}}
+        id="inicio"
+        className="flex items-center justify-center h-[70vh]">
 
             <div className=" mr-7 w-2xl py-4 px-4">
                 <h1 className="font-bold text-5xl mb-5">Desarrollador Frontend & Ciberseguridad</h1>
@@ -34,7 +37,7 @@ function Inicio() {
                 <img src={FotoPersonal} alt="Foto personal" className="object-cover w-full h-full"/>
             </div>
 
-        </Element>
+        </motion.idv>
     );
 }
 
