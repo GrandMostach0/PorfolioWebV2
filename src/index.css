@@ -7,7 +7,7 @@
 @layer components{
 
     .titulos{
-        @apply text-5xl font-bold mb-2;
+        @apply text-2xl md:text-4xl lg:text-5xl font-bold mb-2;
     }
 
     .descripcionTitulo{

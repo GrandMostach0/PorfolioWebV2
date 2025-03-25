@@ -12,13 +12,13 @@ function Inicio() {
     return(
         <motion.idv initial={{ y: -50, opacity: 0}} animate={{ y:50, opacity: 1}} transition={{duration: 1, delay: 0.2}}
         id="inicio"
-        className="flex items-center justify-center h-[70vh]">
+        className="flex flex-col-reverse items-center justify-center lg:flex-row md:flex-row sm:flex-row h-[70vh]">
 
-            <div className=" mr-7 w-2xl py-4 px-4">
-                <h1 className="font-bold text-5xl mb-5 ">Desarrollador Frontend & Ciberseguridad</h1>
+            <div className="w-[100%] md:w-[100%] lg:w-[35%] mx-auto lg:m-0 lg:mr-15 py-4 px-2 md:px-4 text-center md:text-left lg:text-left">
+                <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl sm:text-left lg:text-5xl mb-2 md:mb-5">Desarrollador Frontend & Ciberseguridad</h1>
                 <p className="text-base">Soy un apasionado del desarrollo web y la ciberseguridad. Listo para explorar y crecer en esta apasionante travesía.</p>
 
-                <div className="mt-5 flex items-center">
+                <div className="mt-5 flex items-center justify-center sm:justify-start md:justify-start lg:justify-start">
 
                     <a href="" className="bg-white text-black text-sm py-2 px-2 rounded-xl mr-6 hover:scale-105 hover:bg-gray-300">Ver Proyectos</a>
 
@@ -32,7 +32,7 @@ function Inicio() {
 
             </div>
 
-            <div className="max-w-[15%] max-h-[50%] rounded-full overflow-hidden shadow-[0px_0px_20px_10px_#4a5568]">
+            <div className="w-[150px] h-[175px] sm:w-[210px] md:w-[250px] md:h-[250px] rounded-full overflow-hidden shadow-[0px_0px_20px_10px_#4a5568]">
                 <img src={FotoPersonal} alt="Foto personal" className="object-cover w-full h-full"/>
             </div>
 
