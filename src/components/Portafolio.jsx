@@ -31,7 +31,7 @@ function Portafolio(){
                     {menuPortafolio.map((opcion) => (
                         <button
                             key={opcion}
-                            className={`px-4 py-2 rounded-lg cursor-pointer transition-all ${
+                            className={`px-2 py-1 sm:px-4 sm:py-2 rounded-lg cursor-pointer transition-all ${
                                 seleccion  === opcion ? "bg-black text-white" : "text-gray-400"
                             }`}
                             onClick={() => setSeleccion(opcion)}
@@ -42,7 +42,7 @@ function Portafolio(){
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {DataProyects[seleccion]?.length > 0 ? (
                     DataProyects[seleccion].map((proyecto, index) => (
                         <motion.div
