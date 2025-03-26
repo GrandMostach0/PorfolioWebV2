@@ -26,6 +26,60 @@
             "urlGitHub": "https://github.com/GrandMostach0/PorfolioWebV2",
             "urlPreview": "",
             "tags": ["React", "Tailwind CSS", "Framer Motion"]
+        },
+        {
+            "id": 4,
+            "imagenUrl": "https://www.shutterstock.com/image-illustration/david-street-style-graphic-designtextile-260nw-2265632523.jpg",
+            "titulo": "Place & Delirio",
+            "descripcion": "Pequeño proyecto realizado independientemente como objetivo practivo, página desarrollada con php.",
+            "urlGitHub": "https://github.com/GrandMostach0/Cafeteria_page",
+            "urlPreview": "",
+            "tags": ["HTML", "CSS", "PHP", "MySQL"]
+        },
+        {
+            "id": 5,
+            "imagenUrl": "",
+            "titulo": "Cátalogo Cultural",
+            "descripcion": "Aplicación para la gestión de actividades culturales en el estado de yucatán, desarrollada a la empresa de kluge Labs, desplegada en AWS.",
+            "urlGitHub": "https://github.com/GrandMostach0/CatalogoCultural.git",
+            "urlPreview": "",
+            "tags": ["Python", "JavaScript", "CSS", "HTML", "AWS", "PostgreSQL"]
+        },
+        {
+            "id": 6,
+            "imagenUrl": "",
+            "titulo": "Porfolio Web",
+            "descripcion": "Sitio web de portafolio personal con animaciones suaves y diseño responsivo.",
+            "urlGitHub": "https://github.com/GrandMostach0/PorfolioWebV2",
+            "urlPreview": "",
+            "tags": ["React", "Tailwind CSS", "Framer Motion"]
+        },
+        {
+            "id": 7,
+            "imagenUrl": "https://www.shutterstock.com/image-illustration/david-street-style-graphic-designtextile-260nw-2265632523.jpg",
+            "titulo": "Place & Delirio",
+            "descripcion": "Pequeño proyecto realizado independientemente como objetivo practivo, página desarrollada con php.",
+            "urlGitHub": "https://github.com/GrandMostach0/Cafeteria_page",
+            "urlPreview": "",
+            "tags": ["HTML", "CSS", "PHP", "MySQL"]
+        },
+        {
+            "id": 8,
+            "imagenUrl": "",
+            "titulo": "Cátalogo Cultural",
+            "descripcion": "Aplicación para la gestión de actividades culturales en el estado de yucatán, desarrollada a la empresa de kluge Labs, desplegada en AWS.",
+            "urlGitHub": "https://github.com/GrandMostach0/CatalogoCultural.git",
+            "urlPreview": "",
+            "tags": ["Python", "JavaScript", "CSS", "HTML", "AWS", "PostgreSQL"]
+        },
+        {
+            "id": 9,
+            "imagenUrl": "",
+            "titulo": "Porfolio Web",
+            "descripcion": "Sitio web de portafolio personal con animaciones suaves y diseño responsivo.",
+            "urlGitHub": "https://github.com/GrandMostach0/PorfolioWebV2",
+            "urlPreview": "",
+            "tags": ["React", "Tailwind CSS", "Framer Motion"]
         }
     ],
     "DevOps": [

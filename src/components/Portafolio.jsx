@@ -8,8 +8,33 @@ import CardProyects from './proyects/CardProyect';
 import DataProyects from '../json/DataProyects.json'
 function Portafolio(){
     const menuPortafolio = Object.keys(DataProyects);
-
     const [seleccion, setSeleccion] = useState(menuPortafolio[0]);
+
+    //* zona de la páginacion
+    const [currentPage, setCurrentPage] = useState(1);
+    const [projectsPerPage, setProjectsPerPage] =  useState(6);
+
+    const updateProjectsPerPage = () => {
+        if(window.innerWidth >= 1024){
+            setProjectsPerPage(6);
+        } else if (window.innerWidth >= 640){
+            setProjectsPerPage(4);
+        } else {
+            setProjectsPerPage(3)
+        }
+    }
+
+    useEffect(() => {
+        updateProjectsPerPage();
+        window.addEventListener("resize", updateProjectsPerPage);
+        return () => window.removeEventListener("resize", updateProjectsPerPage);
+    })
+
+    const proyectos = DataProyects[seleccion] || [];
+    const startIndex = (currentPage - 1) * projectsPerPage;
+    const endIndex = startIndex + projectsPerPage;
+    const proyectoPaginados = proyectos.slice(startIndex, endIndex);
+    const totalPages = Math.ceil(proyectos.length  / projectsPerPage);
 
     return(
         <Element id="proyectos" className="m-auto">
@@ -43,8 +68,8 @@ function Portafolio(){
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                {DataProyects[seleccion]?.length > 0 ? (
-                    DataProyects[seleccion].map((proyecto, index) => (
+                {proyectoPaginados.length > 0 ? (
+                    proyectoPaginados.map((proyecto, index) => (
                         <motion.div
                         key={proyecto.id}
                         initial={{ opacity: 0, y: 50 }}
@@ -59,6 +84,31 @@ function Portafolio(){
                     <p className="text-white text-center col-span-3">No hay proyectos en esta categoría.</p>
                 )}
             </div>
+
+            {totalPages > 1 && (
+                <div className="border-1 flex items-center justify-center">
+                    <button
+                        className={`px-3 py-1 rounded-lg ${currentPage  === 1 ? "bg-gray-600 cursor-not-allowed" : "cursor-pointer"}`}
+                        disabled = {currentPage === 1}
+                        onClick={() => setCurrentPage (currentPage - 1)}
+                    >
+                        Anterior
+                    </button>
+
+                    <span>
+                        Página {currentPage} de {totalPages}
+                    </span>
+
+                    <button
+                        className={`px-3 py-1 rounded-lg ${currentPage == totalPages ? "bg-gray-600 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-700 cursor-pointer"}`}
+                        disabled = {currentPage == totalPages}
+                        onClick={() => setCurrentPage(currentPage + 1)}
+                    >
+                        siguiente
+                    </button>
+
+                </div>
+            )}
 
         </Element>
     );
