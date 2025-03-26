@@ -5,7 +5,23 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion"; // Para animaciones
 
 function NavBar() {
-  const opcionesMenu = ["inicio", "experiencia", "proyectos", "tecnologias"];
+
+  const [theme, setTheme] = useState(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) return savedTheme;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  });
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", theme === "dark");
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  };
+ 
+  const opcionesMenu = ["inicio", "acerca", "experiencia", "proyectos", "tecnologias"];
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -43,7 +59,7 @@ function NavBar() {
   };
 
   return (
-    <header className="text-white flex items-center justify-between sticky top-0 z-50 py-4 px-6 fade-scroll">
+    <header className="text-white flex items-center justify-between sticky top-0 z-50 py-4 px-6 fade-scroll font-bold">
       <div className="z-50">
         <a href="#">
           <LogoPersonal />
@@ -79,7 +95,7 @@ function NavBar() {
               to={item}
               smooth={true}
               duration={500}
-              offset={-80}
+              offset={-90}
               className="relative group hover:text-primary-300 transition-colors cursor-pointer px-2 rounded-lg hover:bg-sky-100 hover:text-black"
               onClick={() => setIsOpen(false)}
             >
@@ -93,6 +109,13 @@ function NavBar() {
           >
             Contacto
           </a>
+
+          <button
+          onClick={toggleTheme}
+          className="border-none bg-gray-200 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 hover:text-white transition all ease-in">
+            {theme === "light" ? "🌙" : "☀️"}
+          </button>
+
         </nav>
       </div>
 
@@ -121,7 +144,7 @@ function NavBar() {
 
             <a
               href="mailto:kreedlegend@gmail.com"
-              className="mt-4 px-6 py-3 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors"
+              className="mt-4 px-6 py-3 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 bg-sky-50 font-bold text-black hover:scale-105"
               onClick={() => setIsOpen(false)}
             >
               Contacto

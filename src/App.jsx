@@ -20,7 +20,7 @@ function App() {
       <div className="mx-w-[1200px] mx-auto">
 
         <NavBar />
-        <main className='text-white w-[90%] m-auto'>
+        <main className='text-black dark:text-white not-dark:text-white w-[90%] m-auto'>
           <Inicio />
           <AcercaDe />
           <Experiencia />

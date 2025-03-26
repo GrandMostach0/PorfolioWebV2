@@ -20,7 +20,7 @@ function Inicio() {
 
                 <div className="mt-5 flex items-center justify-center sm:justify-start md:justify-start lg:justify-start">
 
-                    <a href="" className="bg-white text-black text-sm py-2 px-2 rounded-xl mr-6 hover:scale-105 hover:bg-gray-300">Ver Proyectos</a>
+                    <a href="" className="bg-white text-black text-sm py-2 px-2 rounded-xl mr-6 hover:scale-105 hover:bg-gray-300">Ver CV</a>
 
                     <a href="https://github.com/GrandMostach0" target="_blank" className="btn-redSocial"> <GitHub /> </a>
                     <a href="https://www.linkedin.com/in/victorchanvarguez/" target="_blank" className="btn-redSocial"> <LinkedIn /></a>
