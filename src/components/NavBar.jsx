@@ -27,11 +27,11 @@ function NavBar() {
     open: {
       opacity: 1,
       y: 0,
-      transition: { type: "spring", stiffness: 300, damping: 24 }
+      transition: { type: "spring", stiffness: 200, damping: 25 }
     },
     closed: {
       opacity: 0,
-      y: -20,
+      y: -50,
       transition: { duration: 0.2 }
     }
   };
@@ -78,7 +78,7 @@ function NavBar() {
               to={item}
               smooth={true}
               duration={500}
-              offset={-60}
+              offset={-80}
               className="relative group hover:text-primary-300 transition-colors cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
@@ -102,7 +102,7 @@ function NavBar() {
             animate="open"
             exit="closed"
             variants={menuVariants}
-            className="fixed top-0 left-0 right-0 shadow-2xs pt-24 pb-8 px-6 lg:hidden z-40 flex flex-col items-center justify-center space-y-8 bg-[rgba(20,20,20,0.98)] border-b border-white/50 text-center"
+            className="fixed inset-0 z-40 flex flex-col items-center justify-center space-y-8 bg-[rgb(20,20,20)] backdrop-blur-lg border-b border-white/50 text-center w-screen h-screen px-6 pt-24 pb-8 lg:hidden"
           >
             {["inicio", "experiencia", "proyectos", "tecnologias"].map((item) => (
               <Link
@@ -110,7 +110,7 @@ function NavBar() {
                 to={item}
                 smooth={true}
                 duration={500}
-                offset={-60}
+                offset={-80}
                 className="text-2xl font-medium hover:text-primary-400 transition-colors w-[100%] cursor-pointer"
                 onClick={() => setIsOpen(false)}
               >

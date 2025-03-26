@@ -87,9 +87,15 @@ function Portafolio(){
             </div>
 
             {totalPages > 1 && (
-                <div className="flex items-center justify-center">
+                <motion.div
+                    initial={{opacity: 0, y:50}}
+                    whileInView={{y: 0,opacity: 1}}
+                    viewport={{once: true}}
+                    transition={{duration: 0.5, delay: 0.6}}
+                    className="mt-5 flex items-center justify-center
+                ">
                     <button
-                        className={`px-3 py-1 rounded-lg ${currentPage  === 1 ? "bg-gray-600 cursor-not-allowed" : "cursor-pointer"}`}
+                        className={`mr-2 px-2 py-1 rounded-lg ${currentPage  === 1 ? "bg-gray-950" : "cursor-pointer border-1 hover:bg-amber-50 hover:text-black"}`}
                         disabled = {currentPage === 1}
                         onClick={() => setCurrentPage (currentPage - 1)}
                     >
@@ -101,14 +107,14 @@ function Portafolio(){
                     </span>
 
                     <button
-                        className={`px-3 py-1 rounded-lg ${currentPage == totalPages ? "bg-gray-600 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-700 cursor-pointer"}`}
+                        className={`ml-3 px-2 py-1 rounded-lg ${currentPage == totalPages ? "bg-gray-950" : "cursor-pointer border-1 hover:bg-amber-50 hover:text-black"}`}
                         disabled = {currentPage == totalPages}
                         onClick={() => setCurrentPage(currentPage + 1)}
                     >
                         siguiente
                     </button>
 
-                </div>
+                </motion.div>
             )}
 
         </Element>

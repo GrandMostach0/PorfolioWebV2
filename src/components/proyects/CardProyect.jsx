@@ -5,7 +5,7 @@ import GitHub from "../icons/GitHub";
 
 function CardProyects(Props){
     return(
-        <div className="border-1 border-gray-500/50 my-2 mx-2 pb-6 rounded-xl overflow-hidden hover:border-white/60 hover:transition-all hover:ease-in hover:-translate-y-2">
+        <div className="border-1 border-gray-500/20 my-2 mx-2 pb-6 rounded-xl overflow-hidden hover:border-white/60 hover:transition-all hover:ease-in hover:-translate-y-2">
             
             <img 
             src={Props.imagenUrl || portadaDefault} 
@@ -19,7 +19,7 @@ function CardProyects(Props){
                 <h2 className="text-2xl font-bold py-2">{Props.titulo}</h2>
                 <p>{Props.descripcion}</p>
 
-                <div className="flex items-center mt-3">
+                <div className="flex items-center mt-3 flex-wrap">
 
                     {Props.tags.map((item, index) => (
                         <p key={index} className="tags">{item}</p>

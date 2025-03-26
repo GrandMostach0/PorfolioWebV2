@@ -23,11 +23,11 @@ function Tecnologias(){
                     <p className="descripcionTitulo">Herramientas y tecnologías que utilizo en mi trabajo</p>
                 </motion.div>
 
-                <div className="my-5 inline-flex bg-white/20 rounded-lg p-1">
+                <div className="my-4 w-[100%] sm:w-auto inline-flex bg-white/20 rounded-lg p-1 overflow-auto">
                     {opciones.map((opcion) => (
                     <button
                         key={opcion}
-                        className={`px-2 py-1 sm:px-4 sm:py-2 rounded-lg cursor-pointer transition-all mr-3 ${
+                        className={`min-w-[120px] px-2 py-1 sm:px-4 sm:py-2 rounded-lg cursor-pointer transition-all mr-3 ${
                         selection === opcion ? "bg-black text-white" : "text-gray-400"
                         }`}
                         onClick={() => setSelection(opcion)}

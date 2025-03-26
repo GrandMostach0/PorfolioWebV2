@@ -15,7 +15,7 @@
     }
 
     .tags{
-        @apply mr-2 mb-2 px-2.5 py-1.5 bg-gray-300/20 rounded-[10px] text-xs hover:scale-105 cursor-pointer;
+        @apply mt-3 mr-2 mb-2 px-3 py-2 bg-gray-300/20 rounded-[10px] text-xs hover:scale-105 cursor-pointer;
     }
 
     .btn-redSocial{
@@ -38,4 +38,31 @@
         animation-timeline: scroll();
         animation-range: 0 600px;
       }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #050505;
+    border-radius: 20px; 
+}
+
+/* Barra del scroll */
+::-webkit-scrollbar-thumb {
+    background: #7a7878;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+/* Cambia el color cuando pasas el mouse */
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #7a78788f #050505; 
 }
