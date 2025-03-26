@@ -15,7 +15,7 @@
     }
 
     .tags{
-        @apply mr-4 px-2.5 py-1.5 bg-gray-300/20 rounded-[10px] text-xs hover:scale-105 cursor-pointer;
+        @apply mr-2 mb-2 px-2.5 py-1.5 bg-gray-300/20 rounded-[10px] text-xs hover:scale-105 cursor-pointer;
     }
 
     .btn-redSocial{
@@ -29,7 +29,7 @@
             0px 0px 0px 1px rgba(0, 0, 0, 0.3);
             background: rgba(20, 20, 20, 0.2);
             backdrop-filter: blur(5px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
       }
       

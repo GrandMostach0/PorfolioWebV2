@@ -39,11 +39,11 @@ function Tecnologias(){
 
             </div>
 
-            <div className=" w-[80%] m-auto border-1 border-white/50 mt-6 mb-7 py-5 px-6 rounded-2xl">
+            <div className=" w-[80%] m-auto border-1 border-white/20 mt-6 mb-7 py-5 px-6 rounded-2xl">
                 <h3 className="text-2xl font-bold">{tecnologiaSeleccionada.nombreTecnologia}</h3>
                 <p className="text-gray-400">{tecnologiaSeleccionada.descripcionTecnologia}</p>
 
-                <div className="my-3 px-5 flex flex-wrap gap-2 ">
+                <div className="my-1 md:my-3 md:px-5 flex flex-wrap">
 
                     {tecnologiaSeleccionada.herramientasTecnologias.map((herramienta, index) => (
                         <p key={index} className="tags">{herramienta}</p>

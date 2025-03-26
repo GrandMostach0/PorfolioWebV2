@@ -22,6 +22,7 @@ function Portafolio(){
         } else {
             setProjectsPerPage(3)
         }
+        setProjectsPerPage(window.innerWidth >= 640 ? 6 : 3);
     }
 
     useEffect(() => {
@@ -86,7 +87,7 @@ function Portafolio(){
             </div>
 
             {totalPages > 1 && (
-                <div className="border-1 flex items-center justify-center">
+                <div className="flex items-center justify-center">
                     <button
                         className={`px-3 py-1 rounded-lg ${currentPage  === 1 ? "bg-gray-600 cursor-not-allowed" : "cursor-pointer"}`}
                         disabled = {currentPage === 1}
