@@ -5,7 +5,7 @@ import GitHub from "../icons/GitHub";
 
 function CardProyects(Props){
     return(
-        <div className="border-1 border-gray-500/20 my-2 mx-2 pb-6 rounded-xl overflow-hidden hover:border-white/60 hover:transition-all hover:ease-in hover:-translate-y-2">
+        <div className="border-1 border-gray-500/10 my-2 mx-2 pb-6 rounded-xl overflow-hidden hover:border-white/60 hover:transition-all hover:ease-in hover:-translate-y-2">
             
             <img 
             src={Props.imagenUrl || portadaDefault} 
@@ -32,7 +32,7 @@ function CardProyects(Props){
                         <a href={Props.urlGitHub}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center justify-around border-1 border-gray-50/20 py-2 px-2 rounded-[10px] hover:bg-gray-50/50 text-xs">
+                        className="flex items-center justify-around border-1 border-gray-50/20 py-2 px-2 rounded-[10px] hover:bg-gray-50/50 text-xs hover:text-black">
                         <GitHub /> Código
                         </a>
                     )}

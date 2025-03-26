@@ -72,11 +72,11 @@ function Portafolio(){
                 {proyectoPaginados.length > 0 ? (
                     proyectoPaginados.map((proyecto, index) => (
                         <motion.div
-                        key={proyecto.id}
-                        initial={{ opacity: 0, y: 50 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true, amount: 0.2 }}
-                        transition={{ duration: 0.6, delay: index * 0.2 }}
+                            key={proyecto.id}
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, amount: 0.2 }}
+                            transition={{ duration: 0.6, delay: index * 0.2 }}
                         >
                          <CardProyects {...proyecto} />
                         </motion.div>
@@ -95,7 +95,7 @@ function Portafolio(){
                     className="mt-5 flex items-center justify-center
                 ">
                     <button
-                        className={`mr-2 px-2 py-1 rounded-lg ${currentPage  === 1 ? "bg-gray-950" : "cursor-pointer border-1 hover:bg-amber-50 hover:text-black"}`}
+                        className={`mr-2 px-2 py-1 rounded-lg ${currentPage  === 1 ? "bg-transparent" : "cursor-pointer border-1 hover:bg-amber-50 hover:text-black"}`}
                         disabled = {currentPage === 1}
                         onClick={() => setCurrentPage (currentPage - 1)}
                     >
@@ -107,7 +107,7 @@ function Portafolio(){
                     </span>
 
                     <button
-                        className={`ml-3 px-2 py-1 rounded-lg ${currentPage == totalPages ? "bg-gray-950" : "cursor-pointer border-1 hover:bg-amber-50 hover:text-black"}`}
+                        className={`ml-3 px-2 py-1 rounded-lg ${currentPage == totalPages ? "bg-transparent" : "cursor-pointer border-1 hover:bg-amber-50 hover:text-black"}`}
                         disabled = {currentPage == totalPages}
                         onClick={() => setCurrentPage(currentPage + 1)}
                     >

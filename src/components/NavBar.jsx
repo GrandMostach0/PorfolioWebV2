@@ -5,6 +5,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion"; // Para animaciones
 
 function NavBar() {
+  const opcionesMenu = ["inicio", "experiencia", "proyectos", "tecnologias"];
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -72,14 +73,14 @@ function NavBar() {
 
       <div ref={menuRef} className="hidden lg:block">
         <nav className="flex items-center gap-8">
-          {["inicio", "experiencia", "proyectos", "tecnologias"].map((item) => (
+          {opcionesMenu.map((item) => (
             <Link
               key={item}
               to={item}
               smooth={true}
               duration={500}
               offset={-80}
-              className="relative group hover:text-primary-300 transition-colors cursor-pointer"
+              className="relative group hover:text-primary-300 transition-colors cursor-pointer px-2 rounded-lg hover:bg-sky-100 hover:text-black"
               onClick={() => setIsOpen(false)}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
@@ -88,7 +89,7 @@ function NavBar() {
           ))}
           <a 
             href="mailto:kreedlegend@gmail.com"
-            className="px-4 py-2 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors"
+            className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition bg-sky-50 text-black font-semibold hover:scale-110 ease-out duration-200"
           >
             Contacto
           </a>
@@ -104,7 +105,7 @@ function NavBar() {
             variants={menuVariants}
             className="fixed inset-0 z-40 flex flex-col items-center justify-center space-y-8 bg-[rgb(20,20,20)] backdrop-blur-lg border-b border-white/50 text-center w-screen h-screen px-6 pt-24 pb-8 lg:hidden"
           >
-            {["inicio", "experiencia", "proyectos", "tecnologias"].map((item) => (
+            {opcionesMenu.map((item) => (
               <Link
                 key={item}
                 to={item}

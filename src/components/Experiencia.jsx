@@ -1,5 +1,5 @@
 import React from "react";
-import { Element } from "react-scroll";
+import { motion } from "framer-motion";
 
 import Work from "./icons/Work";
 
@@ -23,7 +23,14 @@ function Experiencia(){
     ]
 
     return(
-        <Element id="experiencia" className="overflow-auto py-5">
+        <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            id="experiencia"
+            className="overflow-auto py-5"
+        >
             <div className="text-center mb-5">
                 <h2 className="titulos">Experiencia</h2>
             </div>
@@ -36,7 +43,7 @@ function Experiencia(){
                     <p className="text-base sm:text-base md:text-base lg:text-lg mt-3 text-gray-400 text-pretty">{xp.descripcion}</p>
                 </div>
             ))}
-        </Element>
+        </motion.div>
     );
 }
 

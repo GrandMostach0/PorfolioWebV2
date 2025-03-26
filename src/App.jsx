@@ -11,6 +11,8 @@ import Inicio from './components/Inicio'
 import Experiencia from './components/Experiencia'
 import Portafolio from './components/Portafolio'
 import Tecnologias from './components/Tecnologias'
+import Contacto from './components/Contacto'
+import AcercaDe from './components/AcercaDe'
 
 function App() {
   return(
@@ -20,9 +22,11 @@ function App() {
         <NavBar />
         <main className='text-white w-[90%] m-auto'>
           <Inicio />
+          <AcercaDe />
           <Experiencia />
           <Portafolio />
           <Tecnologias />
+          <Contacto/>
         </main>
         <FooterBar />
       </div>
