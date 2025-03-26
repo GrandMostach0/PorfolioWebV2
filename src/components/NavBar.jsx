@@ -149,6 +149,12 @@ function NavBar() {
             >
               Contacto
             </a>
+
+            <button
+            onClick={toggleTheme}
+            className="border-none bg-gray-200 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 hover:text-white transition all ease-in">
+              {theme === "light" ? "🌙" : "☀️"}
+            </button>
           </motion.nav>
         )}
       </AnimatePresence>
