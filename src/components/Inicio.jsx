@@ -33,7 +33,15 @@ function Inicio() {
             </div>
 
             <div className="w-[150px] h-[175px] sm:w-[210px] md:w-[250px] md:h-[250px] rounded-full overflow-hidden shadow-[0px_0px_20px_10px_#4a5568]">
-                <img src={FotoPersonal} alt="Foto personal" className="object-cover w-full h-full"/>
+
+                <img
+                    loading="lazy"
+                    decoding="async"
+                    src={FotoPersonal}
+                    alt="Foto personal"
+                    className="object-cover w-full h-full
+                "/>
+                
             </div>
 
         </motion.idv>
