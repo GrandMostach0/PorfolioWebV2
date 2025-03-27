@@ -31,7 +31,7 @@ function Experiencia(){
             id="experiencia"
             className="overflow-auto py-5"
         >
-            <div className="text-center mb-10">
+            <div className="text-center mb-4">
                 <h2 className="titulos">Experiencia</h2>
             </div>
 

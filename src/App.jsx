@@ -20,7 +20,7 @@ function App() {
       <div className="mx-w-[1200px] mx-auto">
 
         <NavBar />
-        <main className='text-black dark:text-white w-[90%] m-auto font-Releway'>
+        <main className='text-neutral-900 dark:text-neutral-100 w-[90%] m-auto font-Releway'>
           <Inicio />
           <AcercaDe />
           <Experiencia />

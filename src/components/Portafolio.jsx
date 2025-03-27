@@ -40,7 +40,7 @@ function Portafolio(){
     return(
         <Element id="proyectos" className="m-auto">
 
-            <div className="text-center text-white py-5">
+            <div className="text-center py-5 mt-10 md:mt-25">
 
                 <motion.div
                 initial={{opacity: 0, y:50}}
@@ -49,16 +49,16 @@ function Portafolio(){
                 transition={{duration: 0.5, delay: 0.6}}>
                     <h2 className="titulos">Mis Proyectos</h2>
                     <p className="descripcionTitulo">
-                        Explora mi trabajo en desarrollo de software y ciberseguridad
+                        Explora mis trabajos en Desarrollo y Ciberseguridad
                     </p>
                 </motion.div>
 
-                <div className="mt-6 inline-flex bg-white/20 rounded-lg p-1">
+                <div className="mt-6 inline-flex bg-black/30 dark:bg-white/20 rounded-lg p-1">
                     {menuPortafolio.map((opcion) => (
                         <button
                             key={opcion}
                             className={`px-2 py-1 sm:px-4 sm:py-2 rounded-lg cursor-pointer transition-all ${
-                                seleccion  === opcion ? "bg-black text-white" : "text-gray-400"
+                                seleccion  === opcion ? "bg-black text-white" : "text-neutral-100"
                             }`}
                             onClick={() => setSeleccion(opcion)}
                         >
@@ -82,7 +82,7 @@ function Portafolio(){
                         </motion.div>
                     ))
                 ) : (
-                    <p className="text-white text-center col-span-3">No hay proyectos en esta categoría.</p>
+                    <p className="text-center col-span-3">No hay proyectos en esta categoría.</p>
                 )}
             </div>
 
@@ -95,7 +95,7 @@ function Portafolio(){
                     className="mt-5 flex items-center justify-center
                 ">
                     <button
-                        className={`mr-2 px-2 py-1 rounded-lg ${currentPage  === 1 ? "bg-transparent" : "cursor-pointer border-1 hover:bg-amber-50 hover:text-black"}`}
+                        className={`mr-3 px-2 py-1 rounded-lg ${currentPage  === 1 ? "bg-transparent" : "cursor-pointer border-1 hover:bg-neutral-950 hover:text-white dark:hover:bg-neutral-100 dark:hover:text-black hover:font-semibold"}`}
                         disabled = {currentPage === 1}
                         onClick={() => setCurrentPage (currentPage - 1)}
                     >
@@ -107,7 +107,7 @@ function Portafolio(){
                     </span>
 
                     <button
-                        className={`ml-3 px-2 py-1 rounded-lg ${currentPage == totalPages ? "bg-transparent" : "cursor-pointer border-1 hover:bg-amber-50 hover:text-black"}`}
+                        className={`ml-3 px-2 py-1 rounded-lg ${currentPage == totalPages ? "bg-transparent" : "cursor-pointer border-1 hover:bg-neutral-950 hover:text-white dark:hover:bg-neutral-100 dark:hover:text-black hover:font-semibold"}`}
                         disabled = {currentPage == totalPages}
                         onClick={() => setCurrentPage(currentPage + 1)}
                     >
