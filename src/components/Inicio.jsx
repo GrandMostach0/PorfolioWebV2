@@ -13,14 +13,19 @@ function Inicio() {
         <motion.idv initial={{ y: -50, opacity: 0}} animate={{ y:50, opacity: 1}} transition={{duration: 1, delay: 0.2}}
         id="inicio"
         className="flex flex-col-reverse items-center justify-center lg:flex-row md:flex-row sm:flex-row h-[70vh]">
-
             <div className="w-[100%] md:w-[100%] lg:w-[40%] mx-auto lg:m-0 lg:mr-15 py-4 px-2 md:px-4 text-center md:text-left lg:text-left">
-                <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl sm:text-left lg:text-6xl mb-2 md:mb-5">Desarrollador Frontend & Ciberseguridad</h1>
-                <p className="text-xl">Soy un apasionado del desarrollo web y la ciberseguridad. Listo para explorar y crecer en esta apasionante travesía.</p>
+                <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl sm:text-left lg:text-6xl mb-2 md:mb-3">Desarrollador Frontend & Ciberseguridad</h1>
+
+                <div className="m-auto sm:m-0 border-1 border-green-900 flex items-center justify-center py-1 w-[180px] rounded-2xl bg-green-200/30 dark:bg-green-200/10 ">
+                    <div className="circuloDisponibilidad"></div>
+                    <p className="ml-2 text-xs text-green-950 dark:text-green-200">Disponible para trabajar</p>
+                </div>
+
+                <p className="text-sm sm:text-lg mt-3">Desarrollador con experiencia en front-end, back-end y conocimientos en ciberseguridad, Linux y Redes. He trabajado con PHP, Java, JavaScript y Python, usando Django y React. Manejo bases de datos MySQL y PostgreSQL. Me interesa seguir aprendiendo y enfrentar nuevos retos.</p>
 
                 <div className="mt-5 flex items-center justify-center sm:justify-start md:justify-start lg:justify-start">
 
-                    <a href="" className="text-neutral-100 dark:text-neutral-900 font-extrabold text-sm py-2 px-4 rounded-xl mr-6 hover:scale-105 dark:bg-neutral-100 bg-neutral-950">Ver CV</a>
+                    <a href="https://drive.google.com/file/d/1fujkkCEacTJkgz5xfNuP96RbHeInJx7_/view?usp=sharing" target="_blank" className="text-neutral-100 dark:text-neutral-900 font-extrabold text-sm py-2 px-4 rounded-xl mr-6 hover:scale-105 dark:bg-neutral-100 bg-neutral-950">Ver CV</a>
 
                     <a href="https://github.com/GrandMostach0" target="_blank" className="btn-redSocial"> <GitHub /> </a>
                     <a href="https://www.linkedin.com/in/victorchanvarguez/" target="_blank" className="btn-redSocial"> <LinkedIn /></a>

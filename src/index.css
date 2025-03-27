@@ -11,62 +11,94 @@ html{
 }
 
 @theme{
-    --font-Releway: "Raleway", 'Segoe UI', sans-serif;
+  --font-Releway: "Raleway", 'Segoe UI', sans-serif;
+
+  --animate-latido: latido 2s infinite ease-in-out;
+  --animate-rebote: rebote 2s infinite ease-out;
+
+  @keyframes latido {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+  }
+
+  @keyframes rebote {
+    0% {
+      transform: scale(1);
+      opacity: 0.2;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
 }
 
 @layer components{
 
-    .titulos{
-        @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-2 font-sans;
-    }
+  .circuloDisponibilidad {
+    @apply w-[15px] h-[15px] border-green-800 bg-green-800 rounded-full relative after:absolute after:top-0 after:left-0 after:h-[15px] after:w-[15px] after:rounded-full after:bg-green-300 animate-latido after:animate-rebote;
+  }
 
-    .descripcionTitulo{
-        @apply font-semibold text-sm sm:text-lg text-neutral-500 dark:text-neutral-400 mt-3;
-    }
+  .titulos{
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-2 font-sans;
+  }
 
-    .tags{
-        @apply  mt-3 mr-2 mb-2 px-3 py-2 bg-black/10 dark:bg-gray-300/20 rounded-[10px] text-xs hover:scale-105 cursor-pointer;
-    }
+  .descripcionTitulo{
+    @apply font-semibold text-sm sm:text-lg text-neutral-500 dark:text-neutral-400 mt-3;
+  }
 
-    .btn-redSocial{
-        @apply py-1.5 px-2 border-1 border-neutral-950 dark:border-gray-200/20 rounded-xl mr-3 hover:scale-110 hover:font-bold hover:transition-all hover:ease-in-out hover:duration-300;
-    }
+  .tags{
+    @apply  mt-3 mr-2 mb-2 px-3 py-2 bg-black/10 dark:bg-gray-300/20 rounded-[10px] text-xs hover:scale-105 cursor-pointer;
+  }
 
-    @keyframes blur-light {
-        to {
-          box-shadow:
-            0px 5px 50px -5px rgba(0, 0, 0, 0.1),
-            0px 0px 0px 1px rgba(0, 0, 0, 0.3);
-          background: rgba(255, 255, 255, 0.3);
-          backdrop-filter: blur(5px);
-          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        }
+  .btn-redSocial{
+    @apply py-1.5 px-2 border-1 border-neutral-950 dark:border-gray-200/20 rounded-xl mr-3 hover:scale-110 hover:font-bold hover:transition-all hover:ease-in-out hover:duration-300;
+  }
+
+  @keyframes blur-light {
+      to {
+        box-shadow:
+          0px 5px 50px -5px rgba(0, 0, 0, 0.1),
+          0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       }
+    }
       
-      @keyframes blur-dark {
-        to {
-          box-shadow:
-            0px 5px 50px -5px rgba(255, 255, 255, 0.1),
-            0px 0px 0px 1px rgba(255, 255, 255, 0.3);
-          background: rgba(0, 0, 0, 0.1);
-          backdrop-filter: blur(5px);
-          border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        }
+    @keyframes blur-dark {
+      to {
+        box-shadow:
+          0px 5px 50px -5px rgba(255, 255, 255, 0.1),
+          0px 0px 0px 1px rgba(255, 255, 255, 0.3);
+        background: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
       }
+    }
       
-      .fade-scroll {
-        animation: blur-light linear both;
-        animation-timeline: scroll();
-        animation-range: 0 600px;
-      }
-      
-      /* Cuando el tema es oscuro, cambia la animación */
-      .dark .fade-scroll {
-        animation: blur-dark linear both;
-        animation-timeline: scroll();
-        animation-range: 0 600px;
-      }
+    .fade-scroll {
+      animation: blur-light linear both;
+      animation-timeline: scroll();
+      animation-range: 0 600px;
+    }
+    
+    /* Cuando el tema es oscuro, cambia la animación */
+    .dark .fade-scroll {
+      animation: blur-dark linear both;
+      animation-timeline: scroll();
+      animation-range: 0 600px;
+    }
 }
+
 
 ::-webkit-scrollbar {
     width: 8px;
