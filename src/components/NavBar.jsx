@@ -67,7 +67,7 @@ function NavBar() {
       </div>
 
       <button
-        className="lg:hidden text-white focus:outline-none z-50 cursor-pointer"
+        className="lg:hidden focus:outline-none z-50 cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Menu"
       >
@@ -103,9 +103,18 @@ function NavBar() {
               <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-primary-400 group-hover:w-full transition-all duration-300" />
             </Link>
           ))}
+
+            <a
+              href="#"
+              className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
+              onClick={() => setIsOpen(false)}
+            >
+              Ver CV
+            </a>
+
           <a 
             href="mailto:kreedlegend@gmail.com"
-            className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition bg-neutral-900  dark:bg-slate-100 text-neutral-100 dark:text-neutral-900 font-bold hover:scale-110 ease-out duration-200 "
+            className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition bg-neutral-900 dark:bg-slate-100 text-neutral-100 dark:text-neutral-900 font-bold hover:scale-110 ease-out duration-200 "
           >
             Contacto
           </a>
@@ -126,7 +135,8 @@ function NavBar() {
             animate="open"
             exit="closed"
             variants={menuVariants}
-            className="fixed inset-0 z-40 flex flex-col items-center justify-center space-y-8 bg-[rgb(20,20,20)] backdrop-blur-lg border-b border-white/50 text-center w-screen h-screen px-6 pt-24 pb-8 lg:hidden"
+            className="text-neutral-950 dark:text-neutral-100 fixed inset-0 z-40 flex flex-col items-center justify-center space-y-8
+            g-[rgb(0,0,0,0.8)] bg-[rgba(255,255,255,0.95)] dark:bg-[rgba(0,0,0,0.96)] backdrop-blur-lg text-center w-screen h-screen px-6 pt-24 pb-8 lg:hidden"
           >
             {opcionesMenu.map((item) => (
               <Link
@@ -135,7 +145,7 @@ function NavBar() {
                 smooth={true}
                 duration={500}
                 offset={-80}
-                className="text-2xl font-medium hover:text-primary-400 transition-colors w-[100%] cursor-pointer"
+                className="text-2xl font-bold hover:text-primary-400 transition-colors w-[100%] cursor-pointer"
                 onClick={() => setIsOpen(false)}
               >
                 {item.charAt(0).toUpperCase() + item.slice(1)}
@@ -143,18 +153,27 @@ function NavBar() {
             ))}
 
             <a
-              href="mailto:kreedlegend@gmail.com"
-              className="mt-4 px-6 py-3 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 bg-sky-50 font-bold text-black hover:scale-105"
+              href="#"
+              className="px-2 py-1 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
             >
-              Contacto
+              Ver CV
+            </a>
+
+            <a
+              href="mailto:kreedlegend@gmail.com"
+              className="mt-4 px-6 py-3 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 bg-neutral-950 dark:bg-neutral-100 font-bold text-neutral-100 dark:text-neutral-950 hover:scale-105"
+              onClick={() => setIsOpen(false)}
+            >
+             Contacto
             </a>
 
             <button
             onClick={toggleTheme}
-            className="border-1 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 transition all ease-in">
+            className="border-1 border-neutral-950/50 dark:border-neutral-50/50 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 transition all ease-in">
               {theme === "light" ? "🌙" : "☀️"}
             </button>
+
           </motion.nav>
         )}
       </AnimatePresence>

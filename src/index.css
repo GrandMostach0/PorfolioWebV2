@@ -29,7 +29,7 @@ html{
     }
 
     .btn-redSocial{
-        @apply py-2 px-2 border-1 border-neutral-950 dark:border-gray-200/20 rounded-xl mr-3 hover:scale-110 hover:font-bold hover:transition-all hover:ease-in-out hover:duration-300;
+        @apply py-1.5 px-2 border-1 border-neutral-950 dark:border-gray-200/20 rounded-xl mr-3 hover:scale-110 hover:font-bold hover:transition-all hover:ease-in-out hover:duration-300;
     }
 
     @keyframes blur {
