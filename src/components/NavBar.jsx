@@ -96,7 +96,7 @@ function NavBar() {
               smooth={true}
               duration={500}
               offset={-90}
-              className="relative group hover:text-primary-300 transition-colors cursor-pointer px-2 rounded-lg hover:bg-sky-100 hover:text-black"
+              className="relative group hover:text-primary-300 transition-colors cursor-pointer px-2 py-1 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-950"
               onClick={() => setIsOpen(false)}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
