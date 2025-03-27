@@ -29,7 +29,7 @@ html{
     }
 
     .btn-redSocial{
-        @apply py-2 px-2 border-1 border-gray-400/50 rounded-xl mr-3 hover:bg-gray-400/50 hover:scale-110 hover:font-bold hover:transition-all hover:ease-in-out hover:duration-300;
+        @apply py-2 px-2 border-1 border-neutral-950 dark:border-gray-200/20 rounded-xl mr-3 hover:scale-110 hover:font-bold hover:transition-all hover:ease-in-out hover:duration-300;
     }
 
     @keyframes blur {
@@ -37,7 +37,7 @@ html{
             box-shadow:
             0px 5px 50px -5px rgba(0, 0, 0, 0.1),
             0px 0px 0px 1px rgba(0, 0, 0, 0.3);
-            background: rgba(20, 20, 20, 0.2);
+            background: rgba(20, 20, 20, 0.3);
             backdrop-filter: blur(5px);
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }

@@ -11,8 +11,8 @@ function AcercaDe() {
             className="my-10 sm:mt-20 mb-20"
             id="acerca"
         >
-            <h1 className="titulos text-center dark:text-white">Sobre mí</h1>
-            <div className="my-6 w-[100%] sm:w-[70%] m-auto text-gray-300 text-base sm:text-lg text-pretty">
+            <h1 className="titulos text-center">Sobre mí</h1>
+            <div className="my-6 w-[100%] sm:w-[70%] m-auto text-base sm:text-lg text-pretty">
             <p>Hola 👋, soy Victor, recién egresado de <span className="font-bold">Ingeniería en Sistemas Computacionales</span>.</p>
             <p>Me apasionan el <span className="font-bold">desarrollo web</span> y la <span className="font-bold">Ciberseguridad</span>. He trabajado en un proyecto donde expandí mis conocimientos y adquirí experiencia práctica. Actualmente, sigo reforzando mis habilidades para crecer profesionalmente.</p>
             <p>Me motiva estar en <span className="font-bold">constante aprendizaje</span> y mantenerme actualizado con las últimas tecnologías.</p>

@@ -14,13 +14,13 @@ function Inicio() {
         id="inicio"
         className="flex flex-col-reverse items-center justify-center lg:flex-row md:flex-row sm:flex-row h-[70vh]">
 
-            <div className="w-[100%] md:w-[100%] lg:w-[35%] mx-auto lg:m-0 lg:mr-15 py-4 px-2 md:px-4 text-center md:text-left lg:text-left">
-                <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl sm:text-left lg:text-5xl mb-2 md:mb-5">Desarrollador Frontend & Ciberseguridad</h1>
-                <p className="text-base">Soy un apasionado del desarrollo web y la ciberseguridad. Listo para explorar y crecer en esta apasionante travesía.</p>
+            <div className="w-[100%] md:w-[100%] lg:w-[40%] mx-auto lg:m-0 lg:mr-15 py-4 px-2 md:px-4 text-center md:text-left lg:text-left">
+                <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl sm:text-left lg:text-6xl mb-2 md:mb-5">Desarrollador Frontend & Ciberseguridad</h1>
+                <p className="text-xl">Soy un apasionado del desarrollo web y la ciberseguridad. Listo para explorar y crecer en esta apasionante travesía.</p>
 
                 <div className="mt-5 flex items-center justify-center sm:justify-start md:justify-start lg:justify-start">
 
-                    <a href="" className="bg-white text-black text-sm py-2 px-2 rounded-xl mr-6 hover:scale-105 hover:bg-gray-300">Ver CV</a>
+                    <a href="" className="text-neutral-100 dark:text-neutral-900 font-extrabold text-sm py-2 px-2 rounded-xl mr-6 hover:scale-105 dark:bg-neutral-100 bg-neutral-950">Ver CV</a>
 
                     <a href="https://github.com/GrandMostach0" target="_blank" className="btn-redSocial"> <GitHub /> </a>
                     <a href="https://www.linkedin.com/in/victorchanvarguez/" target="_blank" className="btn-redSocial"> <LinkedIn /></a>
@@ -32,7 +32,7 @@ function Inicio() {
 
             </div>
 
-            <div className="w-[150px] h-[175px] sm:w-[210px] md:w-[250px] md:h-[250px] rounded-full overflow-hidden shadow-[0px_0px_20px_10px_#4a5568]">
+            <div className="w-[150px] h-[175px] sm:w-[210px] md:w-[250px] md:h-[250px] rounded-full overflow-hidden shadow-[0px_0px_25px_5px_#ac77c633]">
 
                 <img
                     loading="lazy"

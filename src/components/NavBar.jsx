@@ -59,7 +59,7 @@ function NavBar() {
   };
 
   return (
-    <header className="text-white flex items-center justify-between sticky top-0 z-50 py-4 px-6 fade-scroll font-bold">
+    <header className="font-Releway text-neutral-900 dark:text-neutral-100 flex items-center justify-between sticky top-0 z-50 py-4 px-6 fade-scroll font-bold">
       <div className="z-50">
         <a href="#">
           <LogoPersonal />
@@ -105,14 +105,14 @@ function NavBar() {
           ))}
           <a 
             href="mailto:kreedlegend@gmail.com"
-            className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition bg-sky-50 text-black font-semibold hover:scale-110 ease-out duration-200"
+            className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition bg-neutral-900  dark:bg-slate-100 text-neutral-100 dark:text-neutral-900 font-bold hover:scale-110 ease-out duration-200 "
           >
             Contacto
           </a>
 
           <button
           onClick={toggleTheme}
-          className="border-none bg-gray-200 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 hover:text-white transition all ease-in">
+          className="border-1 bg-slate-950/50 dark:bg-neutral-100/50 cursor-pointer rounded-full w-[45px] h-[45px] transition all ease-in">
             {theme === "light" ? "🌙" : "☀️"}
           </button>
 
@@ -152,7 +152,7 @@ function NavBar() {
 
             <button
             onClick={toggleTheme}
-            className="border-none bg-gray-200 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 hover:text-white transition all ease-in">
+            className="border-1 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 transition all ease-in">
               {theme === "light" ? "🌙" : "☀️"}
             </button>
           </motion.nav>
