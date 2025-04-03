@@ -37,7 +37,7 @@ function Inicio() {
 
             </div>
 
-            <div className="w-[150px] h-[175px] sm:w-[210px] md:w-[250px] md:h-[250px] rounded-full overflow-hidden shadow-[0px_0px_25px_5px_#ac77c633]">
+            <div className="w-[150px] h-[550px] sm:w-[210px] md:w-[250px] md:h-[250px] rounded-full overflow-hidden shadow-[0px_0px_25px_5px_#ac77c633]">
 
                 <img
                     loading="lazy"

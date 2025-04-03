@@ -59,7 +59,7 @@ function NavBar() {
   };
 
   return (
-    <header className="font-Releway text-neutral-900 dark:text-neutral-100 flex items-center justify-between sticky top-0 z-50 py-4 px-6 fade-scroll font-bold">
+    <header className="font-Releway text-neutral-900 dark:text-neutral-100 flex items-center justify-between sticky top-0 z-50 py-4 px-6 fade-scroll font-semibold">
       <div className="z-50">
         <a href="#">
           <LogoPersonal />
@@ -146,7 +146,7 @@ function NavBar() {
                 smooth={true}
                 duration={500}
                 offset={-80}
-                className="text-2xl font-bold hover:text-primary-400 transition-colors w-[100%] cursor-pointer"
+                className="text-2xl hover:text-primary-400 transition-colors w-[100%] cursor-pointer"
                 onClick={() => setIsOpen(false)}
               >
                 {item.charAt(0).toUpperCase() + item.slice(1)}
