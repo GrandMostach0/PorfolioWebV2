@@ -44,7 +44,7 @@ html{
 @layer components{
 
   .circuloDisponibilidad {
-    @apply w-[15px] h-[15px] border-green-800 bg-green-800 rounded-full relative after:absolute after:top-0 after:left-0 after:h-[15px] after:w-[15px] after:rounded-full after:bg-green-300 animate-latido after:animate-rebote;
+    @apply w-[12px] h-[12px] border-green-800 bg-green-800 rounded-full relative after:absolute after:top-0 after:left-0 after:h-[12px] after:w-[12px] after:rounded-full after:bg-green-300 animate-latido after:animate-rebote;
   }
 
   .titulos{

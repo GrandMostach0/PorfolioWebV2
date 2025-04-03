@@ -25,7 +25,7 @@ function Inicio() {
 
                 <div className="mt-5 flex items-center justify-center sm:justify-start md:justify-start lg:justify-start">
 
-                    <a href="https://drive.google.com/file/d/1fujkkCEacTJkgz5xfNuP96RbHeInJx7_/view?usp=sharing" target="_blank" className="text-neutral-100 dark:text-neutral-900 font-extrabold text-sm py-2 px-4 rounded-xl mr-6 hover:scale-105 dark:bg-neutral-100 bg-neutral-950">Ver CV</a>
+                    <a href="https://drive.google.com/file/d/1aNeAVR7JplDF1W4eF2mV5Q1INLgjL81M/view?usp=sharing" target="_blank" className="text-neutral-100 dark:text-neutral-900 font-extrabold text-sm py-2 px-4 rounded-xl mr-6 hover:scale-105 dark:bg-neutral-100 bg-neutral-950">Ver CV</a>
 
                     <a href="https://github.com/GrandMostach0" target="_blank" className="btn-redSocial"> <GitHub /> </a>
                     <a href="https://www.linkedin.com/in/victorchanvarguez/" target="_blank" className="btn-redSocial"> <LinkedIn /></a>

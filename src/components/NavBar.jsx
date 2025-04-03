@@ -105,7 +105,7 @@ function NavBar() {
           ))}
 
             <a
-              href="https://drive.google.com/file/d/1fujkkCEacTJkgz5xfNuP96RbHeInJx7_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1aNeAVR7JplDF1W4eF2mV5Q1INLgjL81M/view?usp=sharing"
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
@@ -154,7 +154,7 @@ function NavBar() {
             ))}
 
             <a
-              href="https://drive.google.com/file/d/1fujkkCEacTJkgz5xfNuP96RbHeInJx7_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1aNeAVR7JplDF1W4eF2mV5Q1INLgjL81M/view?usp=sharing"
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
@@ -163,7 +163,7 @@ function NavBar() {
             </a>
 
             <a
-              href="mailto:kreedlegend@gmail.com"
+              href="mailto:Kreedlegend0@gmail.com"
               className="mt-4 px-6 py-3 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 bg-neutral-950 dark:bg-neutral-100 font-bold text-neutral-100 dark:text-neutral-950 hover:scale-105"
               onClick={() => setIsOpen(false)}
             >

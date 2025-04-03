@@ -17,7 +17,7 @@ function FooterBar() {
                 <div className="flex items-center mb-3">
                     <Location /> <p className="ml-0.5">Mérida, Yucatán, México.</p>
                 </div>
-                <p><a href="tel:+529994552047">+52 9994552047</a> - <a href="mailto:kreedlegend@gmail.com">Kreedlegend@gmail.com</a></p>
+                <p><a href="tel:+529994552047">+52 9994552047</a> - <a href="mailto:Kreedlegend0@gmail.com">Kreedlegend0@gmail.com</a></p>
             </div>
 
             <div className="text-sm">
@@ -27,14 +27,14 @@ function FooterBar() {
                     <li><a href="#experiencia">Experiencia</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
                     <li><a href="#tecnologias">Tecnologías</a></li>
-                    <li><a href="mailto:kreedlegend@gmail.com">Contacto</a></li>
+                    <li><a href="mailto:Kreedlegend0@gmail.com">Contacto</a></li>
                 </ul>
             </div>
 
             <div className="flex items-center justify-center sm:justify-start">
-                <a href="https://github.com/GrandMostach0" className="mr-5 hover:scale-110 border-1 border-neutral-950/50 dark:border-neutral-100/50 py-1 px-1 rounded-lg" ><GitHub /></a>
-                <a href="https://www.linkedin.com/in/victorchanvarguez/" className="mr-5 hover:scale-110 border-1 border-neutral-950/50 dark:border-neutral-100/50 py-1 px-1 rounded-lg" ><LinkedIn /></a>
-                <a href="https://www.behance.net/Victor_Chan" className="hover:scale-110 border-1 border-neutral-950/50 dark:border-neutral-100/50 py-1 px-1 rounded-lg" ><Behance /></a>
+                <a href="https://github.com/GrandMostach0" target="_blank" className="mr-5 hover:scale-110 border-1 border-neutral-950/50 dark:border-neutral-100/50 py-1 px-1 rounded-lg" ><GitHub /></a>
+                <a href="https://www.linkedin.com/in/victorchanvarguez/" target="_blank" className="mr-5 hover:scale-110 border-1 border-neutral-950/50 dark:border-neutral-100/50 py-1 px-1 rounded-lg" ><LinkedIn /></a>
+                <a href="https://www.behance.net/Victor_Chan" target="_blank" className="hover:scale-110 border-1 border-neutral-950/50 dark:border-neutral-100/50 py-1 px-1 rounded-lg" ><Behance /></a>
             </div>
         </footer>
     );
