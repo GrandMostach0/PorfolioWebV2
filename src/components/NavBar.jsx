@@ -105,7 +105,7 @@ function NavBar() {
           ))}
 
             <a
-              href="https://drive.google.com/file/d/1aNeAVR7JplDF1W4eF2mV5Q1INLgjL81M/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Rjq5ABssfAJMv3H67qSILKDFAN14YtXd/view?usp=sharing"
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
@@ -114,7 +114,7 @@ function NavBar() {
             </a>
 
           <a 
-            href="mailto:kreedlegend@gmail.com"
+            href="mailto:Kreedlegend0@gmail.com"
             className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition bg-neutral-900 dark:bg-slate-100 text-neutral-100 dark:text-neutral-900 font-bold hover:scale-110 ease-out duration-200 "
           >
             Contacto
@@ -154,7 +154,7 @@ function NavBar() {
             ))}
 
             <a
-              href="https://drive.google.com/file/d/1aNeAVR7JplDF1W4eF2mV5Q1INLgjL81M/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Rjq5ABssfAJMv3H67qSILKDFAN14YtXd/view?usp=sharing"
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
