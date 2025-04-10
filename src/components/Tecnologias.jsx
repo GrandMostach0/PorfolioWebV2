@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 function Tecnologias(){
 
-    const opciones = ["fronted", "backend", "base de datos", "DevOps"]
+    const opciones = ["fronted", "backend", "base de datos", "DevOps", "Ciberseguridad"]
     const [selection, setSelection] = useState(opciones[0]);
 
     const tecnologiaSeleccionada = Herramientas.find(item => item.tag === selection);

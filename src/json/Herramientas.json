@@ -26,5 +26,11 @@
         "nombreTecnologia": "DevOps",
         "descripcionTecnologia": "Herramientas para automatización, despliegue y gestión de infraestructura.",
         "herramientasTecnologias": ["Git", "Docker", "AWS", "Linux"]
+    },{
+        "id": 5,
+        "tag": "Ciberseguridad",
+        "nombreTecnologia": "Ciberseguirdad",
+        "descripcionTecnologia": "Prácticas y herramientas para proteger sistemas y datos de amenazas y ataques.",
+        "herramientasTecnologias": ["Linux", "Redes", "Metasploit", "WireShark", "ISO 27001"]
     }
 ]

@@ -41,8 +41,8 @@ function CardProyects(Props){
                         <a href={Props.urlPreview}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="py-2 px-2 rounded-[10px] bg-white text-gray-700 text-xs">
-                        Ver Demo
+                        className="py-2 px-2 rounded-[10px] border-1 text-xs border-neutral-700 dark:border-white/50 font-semibold hover:bg-neutral-700 dark:hover:bg-neutral-400 hover:text-white dark:hover:text-black">
+                        Visualizar
                         </a>
                     )}
 

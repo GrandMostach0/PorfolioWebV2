@@ -2,84 +2,39 @@
     "Desarrollo": [
         {
             "id": 1,
-            "imagenUrl": "https://www.shutterstock.com/image-illustration/david-street-style-graphic-designtextile-260nw-2265632523.jpg",
+            "imagenUrl": "https://scontent.fvsa3-1.fna.fbcdn.net/v/t39.30808-6/477793400_1084084237065593_5327339969502914932_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFsy3Rb8z3Tpf9i3voeK8smZmW7E8psgU1mZbsTymyBTTJ9iemmPZdBpzkejtpzCiDTrx0LQ9vqPB2c7jQFsa_f&_nc_ohc=1yLOF839qIAQ7kNvwH1LbP_&_nc_oc=AdlUTuZAcF6-9k8IyNsYYdswYAVkTlYlQxGUSlfWM97Wel-fbuekP7vPo8rteM8eGkE&_nc_zt=23&_nc_ht=scontent.fvsa3-1.fna&_nc_gid=-yrl-grg6AS8Y2Fw2agVcQ&oh=00_AfH4OXbB_6BcZLEKm9ZoFbAMJMSGr7Pyphsiohumqzk9MQ&oe=67FDF2A0",
             "titulo": "Place & Delirio",
-            "descripcion": "Pequeño proyecto realizado independientemente como objetivo practivo, página desarrollada con php.",
+            "descripcion": "Proyecto sobre una página de cafetería, este proyeco se realizado con el objetivo de practicar mis conocimientos sobre el lenguaje de programación PHP.",
             "urlGitHub": "https://github.com/GrandMostach0/Cafeteria_page",
             "urlPreview": "",
             "tags": ["HTML", "CSS", "PHP", "MySQL"]
         },
         {
             "id": 2,
-            "imagenUrl": "",
+            "imagenUrl": "https://foret.mx/storage/uploads/San%20Ingacio%20M%C3%A9rida%20Yucat%C3%A1n%20-%20Foret_1684926397.jpg",
             "titulo": "Cátalogo Cultural",
             "descripcion": "Aplicación para la gestión de actividades culturales en el estado de yucatán, desarrollada a la empresa de kluge Labs, desplegada en AWS.",
             "urlGitHub": "https://github.com/GrandMostach0/CatalogoCultural.git",
             "urlPreview": "",
-            "tags": ["Python", "JavaScript", "CSS", "HTML", "AWS", "PostgreSQL"]
+            "tags": ["Python", "Django", "JavaScript", "HTML", "AWS", "PostgreSQL"]
         },
         {
             "id": 3,
-            "imagenUrl": "",
+            "imagenUrl": "https://elementor.com/cdn-cgi/image/f=auto,w=1200/https://elementor.com/blog/wp-content/uploads/2020/10/29.09.20_WEB-DESIGN-PORTFOLIO_BLOG-03-08-1.png",
             "titulo": "Porfolio Web",
-            "descripcion": "Sitio web de portafolio personal con animaciones suaves y diseño responsivo.",
+            "descripcion": "Mi portfolio es una representación de mi viaje como desarrollador/a, donde cada proyecto refleja mi pasión por la tecnología y la creatividad.",
             "urlGitHub": "https://github.com/GrandMostach0/PorfolioWebV2",
             "urlPreview": "",
             "tags": ["React", "Tailwind CSS", "Framer Motion"]
         },
         {
             "id": 4,
-            "imagenUrl": "https://www.shutterstock.com/image-illustration/david-street-style-graphic-designtextile-260nw-2265632523.jpg",
-            "titulo": "Place & Delirio",
-            "descripcion": "Pequeño proyecto realizado independientemente como objetivo practivo, página desarrollada con php.",
-            "urlGitHub": "https://github.com/GrandMostach0/Cafeteria_page",
-            "urlPreview": "",
-            "tags": ["HTML", "CSS", "PHP", "MySQL"]
-        },
-        {
-            "id": 5,
-            "imagenUrl": "",
-            "titulo": "Cátalogo Cultural",
-            "descripcion": "Aplicación para la gestión de actividades culturales en el estado de yucatán, desarrollada a la empresa de kluge Labs, desplegada en AWS.",
-            "urlGitHub": "https://github.com/GrandMostach0/CatalogoCultural.git",
-            "urlPreview": "",
-            "tags": ["Python", "JavaScript", "CSS", "HTML", "AWS", "PostgreSQL"]
-        },
-        {
-            "id": 6,
-            "imagenUrl": "",
-            "titulo": "Porfolio Web",
-            "descripcion": "Sitio web de portafolio personal con animaciones suaves y diseño responsivo.",
-            "urlGitHub": "https://github.com/GrandMostach0/PorfolioWebV2",
-            "urlPreview": "",
-            "tags": ["React", "Tailwind CSS", "Framer Motion"]
-        },
-        {
-            "id": 7,
-            "imagenUrl": "https://www.shutterstock.com/image-illustration/david-street-style-graphic-designtextile-260nw-2265632523.jpg",
-            "titulo": "Place & Delirio",
-            "descripcion": "Pequeño proyecto realizado independientemente como objetivo practivo, página desarrollada con php.",
-            "urlGitHub": "https://github.com/GrandMostach0/Cafeteria_page",
-            "urlPreview": "",
-            "tags": ["HTML", "CSS", "PHP", "MySQL"]
-        },
-        {
-            "id": 8,
-            "imagenUrl": "",
-            "titulo": "Cátalogo Cultural",
-            "descripcion": "Aplicación para la gestión de actividades culturales en el estado de yucatán, desarrollada a la empresa de kluge Labs, desplegada en AWS.",
-            "urlGitHub": "https://github.com/GrandMostach0/CatalogoCultural.git",
-            "urlPreview": "",
-            "tags": ["Python", "JavaScript", "CSS", "HTML", "AWS", "PostgreSQL"]
-        },
-        {
-            "id": 9,
-            "imagenUrl": "",
-            "titulo": "Porfolio Web",
-            "descripcion": "Sitio web de portafolio personal con animaciones suaves y diseño responsivo.",
-            "urlGitHub": "https://github.com/GrandMostach0/PorfolioWebV2",
-            "urlPreview": "",
-            "tags": ["React", "Tailwind CSS", "Framer Motion"]
+            "imagenUrl": "https://spin.atomicobject.com/wp-content/uploads/Figma-Image.jpg",
+            "titulo": "Mis Diseños Web",
+            "descripcion": "En mi Behance puedes explorar mis mockups y diseños web, donde he plasmado mi enfoque creativo y atención al detalle en cada proyecto. Cada diseño refleja mi habilidad para crear interfaces visuales atractivas y funcionales.",
+            "urlGitHub": "",
+            "urlPreview": "https://www.behance.net/Victor_Chan",
+            "tags": ["Figma"]
         }
     ],
     "DevOps": [
@@ -91,6 +46,18 @@
             "urlGitHub": "https://github.com/JulianChan123/docker-ls-chall",
             "urlPreview": "",
             "tags": ["Docker"]
+        }
+    ],
+    "Ciberseguridad": [
+        {
+            "id": 1,
+            "imagenUrl": "https://media.licdn.com/dms/image/v2/D5612AQH-Ap4I7tvnOg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1683380521228?e=2147483647&v=beta&t=0Qkj6fJ3tCvjFEIp9RoM7a0ecE2HUGqVZpuCsbF2lyA",
+            "titulo": "Concurso CTF (Capture The Flag)",
+            "descripcion": "En este CTF, junto a mi equipo, resolvimos desafíos de ciberseguridad que pusieron a prueba nuestras habilidades en análisis de vulnerabilidades y explotación. Cada reto nos permitió mejorar nuestra capacidad para identificar y solucionar problemas de seguridad en entornos reales.",
+            "urlGitHub": "",
+            "urlPreview": "",
+            "tags": ["Linux", "Exploit", "Reconocimiento", "Vulnerabilidades"]
+
         }
     ]
 }
