@@ -10,13 +10,13 @@ function Experiencia(){
             id: 1,
             puesto: "Documentador",
             empresa: "Efisys Core Banking",
-            tiempo: "Actualmente....",
+            tiempo: "Noviembre 2024- Abril 2025",
             descripcion: "Encargado de la documentación técnica, elaboración de manuales de usuarios final y registrando procesos internos. Además, apoyé en tareas de QA, realizando pruebas funcionales y de regresión para asegurar la calidad del software, documentando hallazgos y colaborando en la mejora continua del sistema."
         },
         {
             id: 2,
             puesto: "Desarrollador FullStack",
-            empresa: "Cluge Labs",
+            empresa: "Kluge Labs",
             tiempo: "Septiembre 2024 - Enero 2025",
             descripcion: "Desarrollé una plataforma web para la creación de un catálogo cultural, permitiendo a actores y escuelas de Arte y Cultura publicar sus obras, implemente funcionalidades para la gestión de perfiles, eventos y la integración con AWS para el alojamiento. Además, diseñe la arquitectura del proyecto, asegurando su escalabilidad y facilidad de uso."
         },
