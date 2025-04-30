@@ -105,7 +105,7 @@ function NavBar() {
           ))}
 
             <a
-              href="https://drive.google.com/file/d/1fOH43rPgKTa_7xlZamzQi766gpgnjLq6/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Dw4mpBsGciEFH_ktj0kDuGAB30vShKs-/view?usp=sharing"
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
@@ -154,7 +154,7 @@ function NavBar() {
             ))}
 
             <a
-              href="https://drive.google.com/file/d/1fOH43rPgKTa_7xlZamzQi766gpgnjLq6/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Dw4mpBsGciEFH_ktj0kDuGAB30vShKs-/view?usp=sharing"
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
