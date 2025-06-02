@@ -96,7 +96,7 @@ function NavBar() {
               smooth={true}
               duration={500}
               offset={-90}
-              className="relative group hover:text-primary-300 transition-colors cursor-pointer px-2 py-1 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-950"
+              className="relative group hover:text-primary-300 transition-colors cursor-pointer px-2 py-1 rounded-lg hover:bg-slate-300 dark:hover:bg-slate-700"
               onClick={() => setIsOpen(false)}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
@@ -105,7 +105,7 @@ function NavBar() {
           ))}
 
             <a
-              href="https://drive.google.com/file/d/1Dw4mpBsGciEFH_ktj0kDuGAB30vShKs-/view?usp=sharing"
+              href="https://drive.google.com/file/d/13LCpO8DItV3aG3JzfN9nv9VGLZlhoCwZ/view?usp=sharing"
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
@@ -122,7 +122,7 @@ function NavBar() {
 
           <button
           onClick={toggleTheme}
-          className="border-1 bg-slate-950/50 dark:bg-neutral-100/50 cursor-pointer rounded-full w-[45px] h-[45px] transition all ease-in">
+          className="dark:bg-slate-600/50 bg-slate-300 cursor-pointer rounded-full w-[45px] h-[45px] transition all ease-in">
             {theme === "light" ? "🌙" : "☀️"}
           </button>
 
@@ -154,7 +154,7 @@ function NavBar() {
             ))}
 
             <a
-              href="https://drive.google.com/file/d/1Dw4mpBsGciEFH_ktj0kDuGAB30vShKs-/view?usp=sharing"
+              href="https://drive.google.com/file/d/13LCpO8DItV3aG3JzfN9nv9VGLZlhoCwZ/view?usp=sharing"
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
@@ -172,7 +172,7 @@ function NavBar() {
 
             <button
             onClick={toggleTheme}
-            className="border-1 border-neutral-950/50 dark:border-neutral-50/50 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 transition all ease-in">
+            className="dark:bg-slate-600/50 bg-slate-300 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 transition all ease-in">
               {theme === "light" ? "🌙" : "☀️"}
             </button>
 

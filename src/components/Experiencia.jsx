@@ -8,7 +8,7 @@ function Experiencia(){
     const Experiencia = [
         {
             id: 1,
-            puesto: "Documentador",
+            puesto: "Documentador/QA tester",
             empresa: "Efisys Core Banking",
             tiempo: "Noviembre 2024- Abril 2025",
             descripcion: "Encargado de la documentación técnica, elaboración de manuales de usuarios final y registrando procesos internos. Además, apoyé en tareas de QA, realizando pruebas funcionales y de regresión para asegurar la calidad del software, documentando hallazgos y colaborando en la mejora continua del sistema."

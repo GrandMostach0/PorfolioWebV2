@@ -49,7 +49,7 @@ function Portafolio(){
                 transition={{duration: 0.5, delay: 0.6}}>
                     <h2 className="titulos">Mis Proyectos</h2>
                     <p className="descripcionTitulo">
-                        Explora mis trabajos en Desarrollo y Ciberseguridad
+                        Explora los proyecos que he trabajado 👀
                     </p>
                 </motion.div>
 

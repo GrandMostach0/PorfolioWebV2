@@ -17,7 +17,7 @@ import AcercaDe from './components/AcercaDe'
 function App() {
   return(
     <>
-      <div className="mx-w-[1200px] mx-auto">
+      <div className="mx-w-[1400px] mx-auto">
 
         <NavBar />
         <main className='text-neutral-900 dark:text-neutral-100 w-[90%] m-auto font-Releway'>
