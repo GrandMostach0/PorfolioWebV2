@@ -1,5 +1,3 @@
-import React from "react";
-
 function LogoPersonal(props) {
     return (
         <svg

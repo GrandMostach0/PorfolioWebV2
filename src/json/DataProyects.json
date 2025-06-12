@@ -2,6 +2,15 @@
     "Desarrollo": [
         {
             "id": 1,
+            "imagenUrl": "https://web.dragonball-api.com/images-compress/logo_dragonballapi.webp",
+            "titulo": "Dragon Ball Front",
+            "descripcion": "Proyecto para mostrar una lista de personajes de la caricatura de Dragon Ball consumendo la pripia api gratuita.",
+            "urlGitHub": "https://github.com/GrandMostach0/DragonBallRepository",
+            "urlPreview": "https://dragonballapipersonaje.netlify.app/",
+            "tags": ["HTML", "CSS", "PHP", "MySQL"]
+        },
+        {
+            "id": 2,
             "imagenUrl": "https://scontent.fvsa3-1.fna.fbcdn.net/v/t39.30808-6/477793400_1084084237065593_5327339969502914932_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFsy3Rb8z3Tpf9i3voeK8smZmW7E8psgU1mZbsTymyBTTJ9iemmPZdBpzkejtpzCiDTrx0LQ9vqPB2c7jQFsa_f&_nc_ohc=1yLOF839qIAQ7kNvwH1LbP_&_nc_oc=AdlUTuZAcF6-9k8IyNsYYdswYAVkTlYlQxGUSlfWM97Wel-fbuekP7vPo8rteM8eGkE&_nc_zt=23&_nc_ht=scontent.fvsa3-1.fna&_nc_gid=-yrl-grg6AS8Y2Fw2agVcQ&oh=00_AfH4OXbB_6BcZLEKm9ZoFbAMJMSGr7Pyphsiohumqzk9MQ&oe=67FDF2A0",
             "titulo": "Place & Delirio",
             "descripcion": "Proyecto sobre una página de cafetería, este proyeco se realizado con el objetivo de practicar mis conocimientos sobre el lenguaje de programación PHP.",
@@ -10,7 +19,7 @@
             "tags": ["HTML", "CSS", "PHP", "MySQL"]
         },
         {
-            "id": 2,
+            "id": 3,
             "imagenUrl": "https://foret.mx/storage/uploads/San%20Ingacio%20M%C3%A9rida%20Yucat%C3%A1n%20-%20Foret_1684926397.jpg",
             "titulo": "Cátalogo Cultural",
             "descripcion": "Aplicación para la gestión de actividades culturales en el estado de yucatán, desarrollada a la empresa de kluge Labs, desplegada en AWS.",
@@ -19,7 +28,7 @@
             "tags": ["Python", "Django", "JavaScript", "HTML", "AWS", "PostgreSQL"]
         },
         {
-            "id": 3,
+            "id": 4,
             "imagenUrl": "https://elementor.com/cdn-cgi/image/f=auto,w=1200/https://elementor.com/blog/wp-content/uploads/2020/10/29.09.20_WEB-DESIGN-PORTFOLIO_BLOG-03-08-1.png",
             "titulo": "Porfolio Web",
             "descripcion": "Mi portfolio es una representación de mi viaje como desarrollador/a, donde cada proyecto refleja mi pasión por la tecnología y la creatividad.",
@@ -28,7 +37,7 @@
             "tags": ["React", "Tailwind CSS", "Framer Motion"]
         },
         {
-            "id": 4,
+            "id": 5,
             "imagenUrl": "https://spin.atomicobject.com/wp-content/uploads/Figma-Image.jpg",
             "titulo": "Mis Diseños Web",
             "descripcion": "En mi Behance puedes explorar mis mockups y diseños web, donde he plasmado mi enfoque creativo y atención al detalle en cada proyecto. Cada diseño refleja mi habilidad para crear interfaces visuales atractivas y funcionales.",
