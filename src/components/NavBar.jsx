@@ -154,7 +154,7 @@ function NavBar() {
             ))}
 
             <a
-              href="https://https://drive.google.com/file/d/1EPI0xn0uXNU_iI2Y17W7OKrb4l2SGyXx/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1EPI0xn0uXNU_iI2Y17W7OKrb4l2SGyXx/view?usp=drivesdk"
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
