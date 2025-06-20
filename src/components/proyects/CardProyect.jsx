@@ -7,12 +7,12 @@ function CardProyects(Props){
     return(
         <div className="border-1 border-gray-500/10 my-2 mx-2 pb-6 rounded-xl overflow-hidden hover:border-neutral-600 hover:transition-all hover:ease-in hover:-translate-y-2">
             
-            <img 
-            src={Props.imagenUrl || portadaDefault} 
-            alt={`Portada ${Props.titulo}`}
-            loading="lazy"
-            decoding="async"
-            className="w-full h-50 object-cover object-center"
+            <img
+                src={Props.imagenUrl || portadaDefault}
+                alt={`Portada ${Props.titulo}`}
+                loading="lazy"
+                decoding="async"
+                className="w-full h-50 object-cover object-center"
             />
 
             <div className="pt-2 px-6">

@@ -2,9 +2,11 @@ import React, { useState, useEffect, useRef } from "react";
 import LogoPersonal from "./icons/LogoPersonal";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { motion, AnimatePresence } from "framer-motion"; // Para animaciones
+import { motion, AnimatePresence } from "framer-motion";
+import { SunIc, MoonIc } from "./icons/ChangeThemeIC";
 
 function NavBar() {
+  const linkCv = "https://drive.google.com/file/d/1nIuY-gck6W2wxchJMnbSmYX40wyinQMz/view?usp=sharing";
 
   const [theme, setTheme] = useState(() => {
     const savedTheme = localStorage.getItem("theme");
@@ -105,7 +107,7 @@ function NavBar() {
           ))}
 
             <a
-              href="https://drive.google.com/file/d/13LCpO8DItV3aG3JzfN9nv9VGLZlhoCwZ/view?usp=sharing"
+              href={linkCv}
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
@@ -122,8 +124,8 @@ function NavBar() {
 
           <button
           onClick={toggleTheme}
-          className="dark:bg-slate-600/50 bg-slate-300 cursor-pointer rounded-full w-[45px] h-[45px] transition all ease-in">
-            {theme === "light" ? "🌙" : "☀️"}
+          className="dark:bg-transparent bg-slate-300 px-2 cursor-pointer rounded-full w-[45px] h-[45px] transition all ease-in">
+            {theme === "light" ? <MoonIc /> : <SunIc />}
           </button>
 
         </nav>
@@ -154,7 +156,7 @@ function NavBar() {
             ))}
 
             <a
-              href="https://drive.google.com/file/d/13LCpO8DItV3aG3JzfN9nv9VGLZlhoCwZ/view?usp=sharing"
+              href={linkCv}
               target="_blank"
               className="px-2 py-1 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
@@ -172,8 +174,8 @@ function NavBar() {
 
             <button
             onClick={toggleTheme}
-            className="dark:bg-slate-600/50 bg-slate-300 cursor-pointer rounded-full w-[45px] h-[45px] text-black hover:bg-gray-400 transition all ease-in">
-              {theme === "light" ? "🌙" : "☀️"}
+            className="dark:bg-slate-600/50 bg-slate-300 px-2.5 cursor-pointer rounded-full w-[45px] h-[45px] dark:text-white text-black hover:bg-gray-400 transition all ease-in">
+              {theme === "light" ? <MoonIc /> : <SunIc />}
             </button>
 
           </motion.nav>

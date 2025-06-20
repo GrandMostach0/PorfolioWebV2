@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { useState } from 'react';
 import { Element } from 'react-scroll';
 import { motion } from 'framer-motion';
@@ -30,6 +30,10 @@ function Portafolio(){
         window.addEventListener("resize", updateProjectsPerPage);
         return () => window.removeEventListener("resize", updateProjectsPerPage);
     })
+
+    useEffect (() => {
+        setCurrentPage(1);
+    }, [seleccion])
 
     const proyectos = DataProyects[seleccion] || [];
     const startIndex = (currentPage - 1) * projectsPerPage;

@@ -4,21 +4,21 @@
         "tag": "fronted",
         "nombreTecnologia": "Fronted",
         "descripcionTecnologia": "Tecnología para crear interfaces interactivas y responsivas.",
-        "herramientasTecnologias": ["HTML", "CSS3", "JavaScript", "React", "TailwindCSS"]
+        "herramientasTecnologias": ["HTML", "CSS", "JavaScript", "React", "Vue", "TailwindCSS"]
     },
     {
         "id": 2,
         "tag": "backend",
         "nombreTecnologia": "Backend",
         "descripcionTecnologia": "Tecnología para desarrollar la lógica del servidor y APIs.",
-        "herramientasTecnologias": ["Python", "Django", "Java", "PHP"]
+        "herramientasTecnologias": ["Python", "Django", "JavaScript", "Node", "PHP", "Laravel"]
     },
     {
         "id": 3,
         "tag": "base de datos",
         "nombreTecnologia": "Base de Datos",
         "descripcionTecnologia": "Sistemas de gestión de bases de datos y almacenamiento.",
-        "herramientasTecnologias": ["MySQL", "PostgreSQL", "Firebase"]
+        "herramientasTecnologias": ["MySQL", "PostgreSQL"]
     },
     {
         "id": 4,

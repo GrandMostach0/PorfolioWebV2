@@ -8,18 +8,24 @@ function Experiencia(){
     const Experiencia = [
         {
             id: 1,
-            puesto: "Documentador/QA tester",
+            puesto: "Documentador Técnico /QA",
             empresa: "Efisys Core Banking",
-            tiempo: "Noviembre 2024- Abril 2025",
-            descripcion: "Encargado de la documentación técnica, elaboración de manuales de usuarios final y registrando procesos internos. Además, apoyé en tareas de QA, realizando pruebas funcionales y de regresión para asegurar la calidad del software, documentando hallazgos y colaborando en la mejora continua del sistema."
+            tiempo: "Noviembre 2024- Mayo 2025",
+            descripcion: "Encargado de la documentación técnica, elaboración de manuales para desarrolladores y usuarios final. Registro de procesos internos. Apoyo en tareas de QA, realizando pruebas funcionales y de regresión para asegurar la calidad del software, documentando hallazgos y colaborando en la mejora continua del sistema."
         },
         {
             id: 2,
             puesto: "Desarrollador FullStack",
             empresa: "Kluge Labs",
-            tiempo: "Septiembre 2024 - Enero 2025",
+            tiempo: "Agosto 2024 - Enero 2025",
             descripcion: "Desarrollé una plataforma web para la creación de un catálogo cultural, permitiendo a actores y escuelas de Arte y Cultura publicar sus obras, implemente funcionalidades para la gestión de perfiles, eventos y la integración con AWS para el alojamiento. Además, diseñe la arquitectura del proyecto, asegurando su escalabilidad y facilidad de uso."
         },
+        {
+            id: 3,
+            puesto: "Soporte Técnico (Servicio Social)",
+            empresa: "Instituto Tecnológico de Mérida",
+            descripcion: "Encagargado del area y gestion de inventario de comput, configuracion de equipos y programas, mantenimiento preventivos de los equipos y apoyo a docentes.",
+        }
     ]
 
     return(

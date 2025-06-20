@@ -7,11 +7,11 @@
             "descripcion": "Proyecto para mostrar una lista de personajes de la caricatura de Dragon Ball consumendo la pripia api gratuita.",
             "urlGitHub": "https://github.com/GrandMostach0/DragonBallRepository",
             "urlPreview": "https://dragonballapipersonaje.netlify.app/",
-            "tags": ["HTML", "CSS", "PHP", "MySQL"]
+            "tags": ["React", "Tailwind CSS", "Swagger", "API"]
         },
         {
             "id": 2,
-            "imagenUrl": "https://scontent.fvsa3-1.fna.fbcdn.net/v/t39.30808-6/477793400_1084084237065593_5327339969502914932_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFsy3Rb8z3Tpf9i3voeK8smZmW7E8psgU1mZbsTymyBTTJ9iemmPZdBpzkejtpzCiDTrx0LQ9vqPB2c7jQFsa_f&_nc_ohc=1yLOF839qIAQ7kNvwH1LbP_&_nc_oc=AdlUTuZAcF6-9k8IyNsYYdswYAVkTlYlQxGUSlfWM97Wel-fbuekP7vPo8rteM8eGkE&_nc_zt=23&_nc_ht=scontent.fvsa3-1.fna&_nc_gid=-yrl-grg6AS8Y2Fw2agVcQ&oh=00_AfH4OXbB_6BcZLEKm9ZoFbAMJMSGr7Pyphsiohumqzk9MQ&oe=67FDF2A0",
+            "imagenUrl": "https://scontent.fcjs3-1.fna.fbcdn.net/v/t39.30808-6/477793400_1084084237065593_5327339969502914932_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFsy3Rb8z3Tpf9i3voeK8smZmW7E8psgU1mZbsTymyBTTJ9iemmPZdBpzkejtpzCiDTrx0LQ9vqPB2c7jQFsa_f&_nc_ohc=fpPH5eOYRhAQ7kNvwEsHouG&_nc_oc=AdnkYP7S1sA1TAN2UTPOXy63ojEbHJJhOz10sEdTi9opHQkHUF-yXIIx69xNykyOqI8&_nc_zt=23&_nc_ht=scontent.fcjs3-1.fna&_nc_gid=MSDQczM2IE-xUojnxlXy1w&oh=00_AfMXjFMpxn6Spr0wwkGksbHferHLcwfqm5OSSo6kacDYBQ&oe=685B54E0",
             "titulo": "Place & Delirio",
             "descripcion": "Proyecto sobre una página de cafetería, este proyeco se realizado con el objetivo de practicar mis conocimientos sobre el lenguaje de programación PHP.",
             "urlGitHub": "https://github.com/GrandMostach0/Cafeteria_page",
