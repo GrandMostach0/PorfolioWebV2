@@ -11,6 +11,15 @@
         },
         {
             "id": 2,
+            "imagenUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv8b9U7D9YT_1AEwadhTeX7mYDqiCR9kzFLgaXh42R4Dt3FwS-sIS2yLLK0kNoALAM7SQ",
+            "titulo": "KinCode LandinPage",
+            "descripcion": "Desarrollo y diseño de una LandingPage para promocionar servicios de desarrollo web.",
+            "urlGitHub": "https://github.com/GrandMostach0/DragonBallRepository",
+            "urlPreview": "https://kincode.netlify.app/",
+            "tags": ["React", "Tailwind CSS", "ReactBits"]
+        },
+        {
+            "id": 3,
             "imagenUrl": "https://scontent.fcjs3-1.fna.fbcdn.net/v/t39.30808-6/477793400_1084084237065593_5327339969502914932_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFsy3Rb8z3Tpf9i3voeK8smZmW7E8psgU1mZbsTymyBTTJ9iemmPZdBpzkejtpzCiDTrx0LQ9vqPB2c7jQFsa_f&_nc_ohc=fpPH5eOYRhAQ7kNvwEsHouG&_nc_oc=AdnkYP7S1sA1TAN2UTPOXy63ojEbHJJhOz10sEdTi9opHQkHUF-yXIIx69xNykyOqI8&_nc_zt=23&_nc_ht=scontent.fcjs3-1.fna&_nc_gid=MSDQczM2IE-xUojnxlXy1w&oh=00_AfMXjFMpxn6Spr0wwkGksbHferHLcwfqm5OSSo6kacDYBQ&oe=685B54E0",
             "titulo": "Place & Delirio",
             "descripcion": "Proyecto sobre una página de cafetería, este proyeco se realizado con el objetivo de practicar mis conocimientos sobre el lenguaje de programación PHP.",
@@ -19,7 +28,7 @@
             "tags": ["HTML", "CSS", "PHP", "MySQL"]
         },
         {
-            "id": 3,
+            "id": 4,
             "imagenUrl": "https://foret.mx/storage/uploads/San%20Ingacio%20M%C3%A9rida%20Yucat%C3%A1n%20-%20Foret_1684926397.jpg",
             "titulo": "Cátalogo Cultural",
             "descripcion": "Aplicación para la gestión de actividades culturales en el estado de yucatán, desarrollada a la empresa de kluge Labs, desplegada en AWS.",
@@ -28,7 +37,7 @@
             "tags": ["Python", "Django", "JavaScript", "HTML", "AWS", "PostgreSQL"]
         },
         {
-            "id": 4,
+            "id": 5,
             "imagenUrl": "https://elementor.com/cdn-cgi/image/f=auto,w=1200/https://elementor.com/blog/wp-content/uploads/2020/10/29.09.20_WEB-DESIGN-PORTFOLIO_BLOG-03-08-1.png",
             "titulo": "Porfolio Web",
             "descripcion": "Mi portfolio es una representación de mi viaje como desarrollador/a, donde cada proyecto refleja mi pasión por la tecnología y la creatividad.",
@@ -37,7 +46,7 @@
             "tags": ["React", "Tailwind CSS", "Framer Motion"]
         },
         {
-            "id": 5,
+            "id": 6,
             "imagenUrl": "https://spin.atomicobject.com/wp-content/uploads/Figma-Image.jpg",
             "titulo": "Mis Diseños Web",
             "descripcion": "En mi Behance puedes explorar mis mockups y diseños web, donde he plasmado mi enfoque creativo y atención al detalle en cada proyecto. Cada diseño refleja mi habilidad para crear interfaces visuales atractivas y funcionales.",
