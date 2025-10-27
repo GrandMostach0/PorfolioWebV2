@@ -25,6 +25,12 @@ function Experiencia(){
             puesto: "Soporte Técnico (Servicio Social)",
             empresa: "Instituto Tecnológico de Mérida",
             descripcion: "Encagargado del area y gestion de inventario de comput, configuracion de equipos y programas, mantenimiento preventivos de los equipos y apoyo a docentes.",
+        },
+        {
+            id: 4,
+            puesto: "Deserrollador Frontend",
+            empresa: "Navegantes",
+            descripcion: "Responsable de realizar el desarrollo Fronted utilizando técnologias de PHP (CodeIgniter4) y Bootstrap5, también estube de apoyo en la parte de backend.",
         }
     ]
 
@@ -42,7 +48,7 @@ function Experiencia(){
             </div>
 
             {Experiencia.map((xp) => (
-                <div key={xp.id} className="border-l-1 border-gray-400 px-5 py-2 lg:w-[40%] md:w-screen m-auto relative before:absolute before:content-[''] before:bg-neutral-500 dark:before:bg-neutral-100 before:w-4 before:h-4 before:rounded-full before:top-4 before:-left-2 ">
+                <div key={xp.id} className="border-l-1 border-gray-400 px-5 py-2 lg:w-[60%] md:w-screen m-auto relative before:absolute before:content-[''] before:bg-neutral-500 dark:before:bg-neutral-100 before:w-4 before:h-4 before:rounded-full before:top-4 before:-left-2 ">
                     <h2 className="text-base font-bold md:text-2xl">{xp.puesto}</h2>
                     <p className="font-bold text-sm md:text-base text-neutral-600 dark:text-neutral-400">{xp.empresa}</p>
                     <p className="text-sm md:text-sm text-neutral-600 dark:text-neutral-400">{xp.tiempo}</p>

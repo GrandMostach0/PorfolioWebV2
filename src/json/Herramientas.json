@@ -11,7 +11,7 @@
         "tag": "backend",
         "nombreTecnologia": "Backend",
         "descripcionTecnologia": "Tecnología para desarrollar la lógica del servidor y APIs.",
-        "herramientasTecnologias": ["Python", "Django", "JavaScript", "Node", "PHP", "Laravel"]
+        "herramientasTecnologias": ["Python", "Django", "JavaScript", "Node", "PHP"]
     },
     {
         "id": 3,
