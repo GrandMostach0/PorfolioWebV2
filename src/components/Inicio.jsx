@@ -16,9 +16,9 @@ function Inicio() {
             <div className="w-[100%] md:w-[100%] lg:w-[40%] mx-auto lg:m-0 lg:mr-15 py-4 px-2 md:px-4 text-center md:text-left lg:text-left">
                 <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl sm:text-left lg:text-6xl mb-2 md:mb-3">Desarrollador FullStack & Ciberseguridad</h1>
 
-                <div className="m-auto sm:m-0 border-1 border-green-900 flex items-center justify-center py-1 w-[180px] rounded-2xl bg-green-200/30 dark:bg-green-200/10 ">
+                <div className="m-auto sm:m-0 border-1 border-red-900 flex items-center justify-center py-1 w-[140px] rounded-2xl bg-green-200/30 dark:bg-green-200/10 ">
                     <div className="circuloDisponibilidad"></div>
-                    <p className="ml-2 text-xs text-green-950 dark:text-green-200">Disponible para trabajar</p>
+                    <p className="ml-2 text-xs text-green-950 dark:text-red-200">No Disponible</p>
                 </div>
 
                 <p className="text-sm sm:text-lg mt-3">Ingeniero en Sistemas con conocimientos en Ciberseguridad y Desarrollo We. Enfocado en implementar soluciones funcionales con buenas prácticas de seguridad.</p>
