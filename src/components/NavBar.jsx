@@ -61,13 +61,14 @@ function NavBar() {
   };
 
   return (
-    <header className="font-Releway text-neutral-900 dark:text-neutral-100 flex items-center justify-between sticky top-0 z-50 py-4 px-6 fade-scroll font-semibold">
+    <header className="font-Releway text-neutral-900 dark:text-neutral-100 flex items-center justify-between sticky top-0 z-50 py-3 px-6 fade-scroll font-semibold">
       <div className="z-50">
         <a href="#">
           <LogoPersonal />
         </a>
       </div>
 
+      {/* ICONO RESPONSIVO */}
       <button
         className="lg:hidden focus:outline-none z-50 cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}
@@ -97,8 +98,8 @@ function NavBar() {
               to={item}
               smooth={true}
               duration={500}
-              offset={-90}
-              className="relative group hover:text-primary-300 transition-colors cursor-pointer px-2 py-1 rounded-lg hover:bg-slate-300 dark:hover:bg-slate-700"
+              offset={-100}
+              className="relative group hover:text-primary-300 transition-colors cursor-pointer px-2 py-1 rounded-lg hover:bg-slate-300 dark:hover:bg-slate-500"
               onClick={() => setIsOpen(false)}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
@@ -109,7 +110,7 @@ function NavBar() {
             <a
               href={linkCv}
               target="_blank"
-              className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
+              className="px-2 py-0.5 bg-primary-500 rounded-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
             >
               Ver CV
@@ -117,14 +118,14 @@ function NavBar() {
 
           <a 
             href="mailto:Kreedlegend0@gmail.com"
-            className="px-2 py-1 bg-primary-500 rounded-lg hover:bg-primary-600 transition bg-neutral-900 dark:bg-slate-100 text-neutral-100 dark:text-neutral-900 font-bold hover:scale-110 ease-out duration-200 "
+            className="px-2 py-0.5 bg-primary-500 rounded-lg hover:bg-primary-600 transition bg-neutral-900 dark:bg-slate-100 text-neutral-100 dark:text-neutral-900 font-bold hover:scale-110 ease-out duration-200 "
           >
             Contacto
           </a>
 
           <button
           onClick={toggleTheme}
-          className="dark:bg-transparent bg-slate-300 px-2 cursor-pointer rounded-full w-[45px] h-[45px] transition all ease-in">
+          className="dark:bg-transparent bg-slate-100 px-2 cursor-pointer rounded-full w-[45px] h-[45px] transition all ease-in">
             {theme === "light" ? <MoonIc /> : <SunIc />}
           </button>
 
@@ -158,7 +159,7 @@ function NavBar() {
             <a
               href={linkCv}
               target="_blank"
-              className="px-2 py-1 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-1 border-neutral-950 dark:border-neutral-100 hover:scale-105"
+              className="px-2 py-1 bg-primary-500 rounded-lg text-lg hover:bg-primary-600 transition-colors border-neutral-950 dark:border-neutral-100 hover:scale-105"
               onClick={() => setIsOpen(false)}
             >
               Ver CV

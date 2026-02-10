@@ -12,10 +12,10 @@ function AcercaDe() {
             id="acerca"
         >
             <h1 className="titulos text-center">Sobre mí</h1>
-            <div className="my-5 pt-5 w-[100%] lg:w-[60%] m-auto text-base sm:text-lg text-pretty">
-            <p>Hola 👋, soy Victor, recién egresado de <span className="font-bold">Ingeniería en Sistemas Computacionales</span>.</p>
-            <p>Un entusiaste del <span className="font-bold">desarrollo web</span> y la <span className="font-bold">Ciberseguridad</span>. He trabajado en un proyecto donde expandí mis conocimientos y adquirí experiencia práctica. Actualmente, sigo reforzando mis habilidades para crecer profesionalmente.</p>
-            <p>Me motiva estar en <span className="font-bold">constante aprendizaje</span> y mantenerme actualizado con las últimas tecnologías.</p>
+            <div className="my-5 pt-5 w-[100%] lg:w-[60%] m-auto texto">
+                <p>Hola 👋, soy Victor, un recién egresado de <span className="font-bold">Ingeniería en Sistemas Computacionales</span>. Un entusiasta del <span className="font-bold">desarrollo web</span> y la <span className="font-bold">Ciberseguridad</span>. He trabajado en proyectos donde expandí mis conocimientos y adquirí experiencia práctica. 
+                Me gusta aprendar cosas nuevas por eso sigo reforzando mis habilidades para crecer profesionalmente.</p>
+                <p>Me motiva estar en <span className="font-bold">constante aprendizaje</span> y mantenerme actualizado con las últimas tecnologías.</p>
             </div>
         </motion.div>
     );

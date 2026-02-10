@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 import FotoPersonal from '../assets/FotoPersonal.jpg'
@@ -6,7 +5,6 @@ import FotoPersonal from '../assets/FotoPersonal.jpg'
 import GitHub from './icons/GitHub';
 import LinkedIn from "./icons/LinkedIn";
 import Behance from "./icons/Behance";
-import Row_Right_Down from "./icons/Row_Right_Down";
 
 function Inicio() {
     return(

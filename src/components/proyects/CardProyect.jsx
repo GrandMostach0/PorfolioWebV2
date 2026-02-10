@@ -19,7 +19,7 @@ function CardProyects(Props){
                 <h2 className="text-2xl font-bold py-2">{Props.titulo}</h2>
                 <p className="text-base text-pretty">{Props.descripcion}</p>
 
-                <div className="flex items-center mt-3 flex-wrap">
+                <div className="flex items-center mt-1 flex-wrap">
 
                     {Props.tags.map((item, index) => (
                         <p key={index} className="tags">{item}</p>

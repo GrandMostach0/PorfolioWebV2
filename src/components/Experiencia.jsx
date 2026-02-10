@@ -50,9 +50,9 @@ function Experiencia(){
             {Experiencia.map((xp) => (
                 <div key={xp.id} className="border-l-1 border-gray-400 px-5 py-2 lg:w-[60%] md:w-screen m-auto relative before:absolute before:content-[''] before:bg-neutral-500 dark:before:bg-neutral-100 before:w-4 before:h-4 before:rounded-full before:top-4 before:-left-2 ">
                     <h2 className="text-base font-bold md:text-2xl">{xp.puesto}</h2>
-                    <p className="font-bold text-sm md:text-base text-neutral-600 dark:text-neutral-400">{xp.empresa}</p>
-                    <p className="text-sm md:text-sm text-neutral-600 dark:text-neutral-400">{xp.tiempo}</p>
-                    <p className="md:font-semibold text-base sm:text-base md:text-base lg:text-lg mt-3 text-pretty text-neutral-600 dark:text-neutral-400">{xp.descripcion}</p>
+                    <p className="font-bold text-sm md:text-base text-neutral-600 dark:text-white/90">{xp.empresa}</p>
+                    <p className="text-sm md:text-sm  dark:text-white/90">{xp.tiempo}</p>
+                    <p className="texto">{xp.descripcion}</p>
                 </div>
             ))}
         </motion.div>
